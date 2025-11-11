@@ -47,7 +47,8 @@ cp -r templates/systematic_review/ my_project/
 ## Tutorials (11 Total, 280KB)
 
 ### Foundation Tutorials (1-5)
-**Tutorial 1: Getting Started** (8.5KB, 15 minutes)
+**Tutorial 1: Getting Started** (11KB, 25 minutes)
+- Installation and prerequisites
 - Plugin basics and workflow overview
 - Understanding research protocols
 - Quick start examples
@@ -466,7 +467,7 @@ Contributions are welcome! Please:
 6. Push to your fork
 7. Open a Pull Request
 
-See \`CONTRIBUTING.md\` for detailed guidelines (coming soon).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
@@ -540,4 +541,4 @@ Special thanks to the research methods community for developing these invaluable
 
 **Professional research workflow automation for academics**
 
-**Version**: 1.2.0-beta3 | **Last Updated**: 2024-11-10 | **Total Content**: 280KB tutorials + 10 templates
+**Version**: 1.2.0-beta3 | **Last Updated**: 2025-11-11 | **Total Content**: 280KB tutorials + 10 templates
