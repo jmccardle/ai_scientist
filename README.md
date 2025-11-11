@@ -346,10 +346,10 @@ research-assistant/
 If you use this plugin in your research:
 
 ```bibtex
-@software{research_assistant_2024,
+@software{research_assistant_2025,
   author = {Storey, Aaron},
   title = {Research Assistant for Claude Code},
-  year = {2024},
+  year = {2025},
   version = {1.2.0-beta3},
   url = {https://github.com/astoreyai/ai_scientist}
 }
