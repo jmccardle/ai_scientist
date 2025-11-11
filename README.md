@@ -1,711 +1,317 @@
 # Research Assistant for Claude Code
 
-**Professional research workflow automation for PhD students and academics**
+**PRISMA 2020 systematic reviews and NIH-compliant research workflows in Claude Code**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://claude.com/code)
-[![Version](https://img.shields.io/badge/version-1.2.0--beta3-green)](CHANGELOG.md)
+[![Claude Code Compatible](https://img.shields.io/badge/Claude%20Code-Compatible-blue)](https://claude.ai/code)
 
----
+Transform academic research workflows with 22 specialized skills, 10 intelligent agents, and professional-grade quality assurance. Built for PhD students, postdocs, and academics conducting systematic reviews, experimental studies, and rigorous manuscript preparation.
 
-## Overview
-
-A comprehensive Claude Code plugin that transforms academic research workflows with **11 interactive tutorials**, **10 research templates**, specialized agents, and AI-detection capabilities. Designed for PhD students, researchers, and academics conducting systematic reviews, experimental studies, meta-analyses, and writing rigorous manuscripts.
-
-**Total Learning Content**: 280KB, 8 hours of comprehensive research training
-
----
-
-## What's New in v1.2.0-beta3
-
-- **3 New Advanced Tutorials**: Qualitative Research, Meta-Analysis, Implementation Science (105KB)
-- **4 New Specialized Templates**: Scoping Review, Network Meta-Analysis, Pragmatic Trial, Quality Improvement
-- **Comprehensive Research Coverage**: Quantitative, qualitative, mixed methods, evidence synthesis, and implementation science
-- **Real-World Examples**: Every tutorial includes complete worked examples with data
-
----
-
-## Quick Start
-
-\`\`\`bash
-# Clone the repository
-git clone https://github.com/astoreyai/ai_scientist.git
-cd ai_scientist
-
-# Start with Tutorial 1
-cat tutorials/01_getting_started/README.md
-
-# Use a specialized agent
-/agent literature-reviewer
-
-# Use a research template
-cp -r templates/systematic_review/ my_project/
-\`\`\`
-
----
-
-## Tutorials (11 Total, 280KB)
-
-### Foundation Tutorials (1-5)
-**Tutorial 1: Getting Started** (11KB, 25 minutes)
-- Installation and prerequisites
-- Plugin basics and workflow overview
-- Understanding research protocols
-- Quick start examples
-
-**Tutorial 2: Literature Review** (28KB, 45 minutes)
-- PRISMA 2020 systematic review workflow
-- Multi-database search strategies
-- Screening and data extraction
-- Risk of bias assessment
-- Complete workflow from protocol to PRISMA diagram
-
-**Tutorial 3: Experimental Design** (29KB, 40 minutes)
-- NIH rigor and reproducibility standards
-- Power analysis and sample size calculation
-- Randomization protocols
-- CONSORT compliance
-- Pre-registration with OSF
-
-**Tutorial 4: AI-Check Deep Dive** (18KB, 30 minutes)
-- Detecting AI-generated text patterns
-- Integration modes (standalone, pre-commit, QA, manuscript)
-- Interpretation and improvement strategies
-
-**Tutorial 5: Complete Workflow** (32KB, 60 minutes)
-- End-to-end research project: idea → publication
-- Decision gates and quality checkpoints
-- Real example: RCT on meditation for anxiety
-
-### Specialized Research Tutorials (6-8)
-**Tutorial 6: Multi-Site Trials** (27KB, 50 minutes)
-- Consortium coordination and governance
-- Central vs. local IRB considerations
-- Data harmonization across sites
-- Statistical approaches (fixed vs. random effects)
-
-**Tutorial 7: Mixed Methods Research** (28KB, 55 minutes)
-- Convergent, sequential, and embedded designs
-- Qualitative + quantitative integration
-- Joint display tables and visual integration
-- GRAM checklist compliance
-
-**Tutorial 8: Grant Proposals** (31KB, 60 minutes)
-- NIH R01 proposal structure
-- Specific Aims development
-- Significance, Innovation, Approach sections
-- Budget justification and human subjects
-
-### Advanced Methods Tutorials (9-11) - NEW in beta3
-**Tutorial 9: Qualitative Research** (26KB, 50 minutes)
-- Grounded theory, phenomenology, ethnography
-- Charmaz constructivist grounded theory
-- Purposive and theoretical sampling
-- In-depth interview development
-- Constant comparison analysis (NVivo workflow)
-- Trustworthiness criteria (Lincoln & Guba)
-- COREQ 32-item checklist compliance
-
-**Tutorial 10: Meta-Analysis Deep Dive** (24KB, 55 minutes)
-- Fixed vs. random effects model selection
-- Effect size calculation (SMD, MD, RR, OR)
-- Forest plot creation and interpretation
-- Heterogeneity assessment (Q, I², τ²)
-- Subgroup analysis and meta-regression
-- Publication bias detection (funnel plots, Egger's test)
-- R metafor package with complete code
-- PRISMA-MA checklist
-
-**Tutorial 11: Implementation Science** (55KB, 55 minutes)
-- RE-AIM framework (Reach, Effectiveness, Adoption, Implementation, Maintenance)
-- CFIR assessment (5 domains, 39 constructs)
-- ERIC implementation strategies (73 strategies)
-- Hybrid effectiveness-implementation designs
-- Proctor's 8 implementation outcomes
-- Adaptation vs. fidelity tension
-- Real example: TF-CBT in community clinics
-
----
-
-## Research Templates (10 Total)
-
-### Evidence Synthesis Templates
-**Systematic Review Template**
-- PRISMA 2020 compliance (27-item checklist)
-- Complete protocol template
-- Search strategy documentation
-- Risk of bias assessment tools
-- Data extraction forms
-
-**Scoping Review Template** - NEW in beta3
-- Arksey & O'Malley framework
-- PRISMA-ScR compliance (22-item checklist)
-- PCC framework (Population, Concept, Context)
-- 5-stage iterative methodology
-- Evidence mapping and gap analysis
-
-**Network Meta-Analysis Template** - NEW in beta3
-- Mixed treatment comparisons with ranking
-- Network geometry visualization
-- Consistency assessment (node-splitting)
-- R netmeta package code
-- PRISMA-NMA checklist (32 items)
-- SUCRA/P-scores for treatment ranking
-- League tables for all comparisons
-
-### Experimental Design Templates
-**RCT Study Template**
-- CONSORT 2010 compliance
-- Randomization sequence generation
-- Allocation concealment
-- Complete trial protocol
-- Analysis plan template
-
-**Observational Study Template**
-- STROBE checklist compliance
-- Exposure and outcome definitions
-- Confounder identification
-- Statistical analysis plan
-
-**Pragmatic Trial Template** - NEW in beta3
-- PRECIS-2 tool (9-domain scoring)
-- Real-world effectiveness focus
-- CONSORT extension for pragmatic trials
-- Strict intention-to-treat analysis
-- Patient-important outcomes
-
-### Specialized Methods Templates
-**Computational Methods Template**
-- Algorithm development and validation
-- Reproducibility standards
-- Performance evaluation metrics
-- Code documentation standards
-
-**Quality Improvement Template** - NEW in beta3
-- Model for Improvement (PDSA cycles)
-- SMART aim statement development
-- Key driver diagram creation
-- Statistical process control (SPC) charts
-- R qicharts2 package code
-- SQUIRE 2.0 reporting (18 items)
-- Real example: Pressure injury reduction
-
-### Academic Development Templates
-**PhD Dissertation Template**
-- Chapter structure and organization
-- Dissertation planning timeline
-- Committee meeting agendas
-- Defense preparation checklist
-
-**Advisor Communication Template**
-- Meeting agenda templates
-- Progress report formats
-- Milestone tracking
-- Publication planning
-
----
-
-## Specialized Agents (10)
-
-### Literature & Evidence Synthesis
-- **literature-reviewer** - PRISMA 2020 systematic reviews, multi-database searches
-- **meta-reviewer** - Quality assessment of reviews (AMSTAR 2)
-- **gap-analyst** - Systematic gap identification and prioritization
-
-### Experimental Design & Analysis
-- **experiment-designer** - NIH-rigorous experimental design, power analysis
-- **data-analyst** - Reproducible statistical analysis with effect sizes
-- **hypothesis-generator** - Tree-of-Thought hypothesis generation
-
-### Writing & Documentation
-- **manuscript-writer** - CONSORT/PRISMA-compliant manuscripts
-- **citation-manager** - BibTeX/Zotero, retraction checking
-
-### Quality & Review
-- **quality-assurance** - Protocol adherence, reproducibility validation
-- **code-reviewer** - Statistical code review for correctness
-
----
-
-## Key Features
-
-### Research Protocols & Standards
-- **PRISMA 2020** - Systematic review reporting
-- **CONSORT** - RCT reporting standard
-- **STROBE** - Observational study reporting
-- **SQUIRE 2.0** - Quality improvement reporting
-- **COREQ** - Qualitative research reporting
-- **NIH Rigor Standards** - Reproducibility requirements
-- **PRECIS-2** - Pragmatic trial assessment
-
-### AI-Check System
-Detect AI-generated text patterns to ensure authentic academic writing:
-
-**Detection Methods:**
-- Grammar perfection patterns
-- Sentence uniformity analysis (15-25 word uniformity)
-- AI-typical vocabulary ("delve", "leverage", "robust", etc.)
-- Style consistency flags
-
-**Integration Modes:**
-- Standalone analysis: \`python tools/ai_check.py manuscript.tex\`
-- Pre-commit hook: Automatically blocks high-AI commits
-- QA integration: Part of quality assurance workflow
-- Manuscript review: Section-by-section analysis
-
-**Confidence Levels:**
-- 0-30%: Likely human
-- 30-70%: Possible AI assistance
-- 70-100%: Likely AI-generated
-
-### Reproducibility Tools
-- **Git Integration** - Version control for research
-- **DVC (Data Version Control)** - Large dataset tracking
-- **MLflow** - Experiment tracking and logging
-- **Docker** - Containerized analysis environments
-- **Pre-registration** - OSF integration templates
-
----
-
-## Research Coverage
-
-**Quantitative Methods**
-- RCTs, observational studies, meta-analysis, network meta-analysis
-
-**Qualitative Methods**
-- Grounded theory, phenomenology, ethnography, qualitative synthesis
-
-**Mixed Methods**
-- Convergent, sequential, embedded designs with integration
-
-**Evidence Synthesis**
-- Systematic reviews, scoping reviews, meta-analysis, network meta-analysis
-
-**Implementation Science**
-- RE-AIM, CFIR, ERIC strategies, hybrid designs
-
-**Quality Improvement**
-- PDSA cycles, statistical process control, sustainability
-
-**Real-World Effectiveness**
-- Pragmatic trials, PRECIS-2 assessment
-
-**Grant Writing**
-- NIH R01 proposals, specific aims, significance/innovation/approach
-
-**Multi-Site Research**
-- Consortium coordination, data harmonization
-
----
+***
 
 ## Installation
 
-### Option 1: Local Development (If You're Already Here)
+```bash
+# Step 1: Add to marketplace
+/plugin marketplace add https://github.com/astoreyai/ai_scientist
 
-**If you've cloned this repository and are working in it**, the plugin auto-loads when you open Claude Code in this directory. No installation command needed!
-
-**Just open Claude Code here:**
-\`\`\`bash
-# Make sure you're in the ai_scientist directory
-cd /path/to/ai_scientist
-
-# Open Claude Code in this directory
-claude-code .
-\`\`\`
-
-**Verify it's working:**
-\`\`\`
-# List available skills
-/skill list
-# Should show 22 skills
-
-# List available agents
-/agent list
-# Should show 10 agents
-\`\`\`
-
-**Why it works:** The plugin is configured in `.claude/settings.json` to auto-load from the current directory (`"source": "./"`).
-
-**Note:** DO NOT use `/plugin install research-assistant` when you're already in the plugin directory. That command is for installing from remote marketplaces.
-
----
-
-### Option 2: Official Marketplace (Future)
-
-Once available on the Claude Code marketplace:
-
-\`\`\`
-# In Claude Code (from any directory)
-/plugin marketplace add https://marketplace.claude.com/research-assistant
+# Step 2: Install plugin
 /plugin install research-assistant
-\`\`\`
 
----
-
-### Option 3: Manual Installation from GitHub
-
-**For users who want to use the plugin from any directory:**
-
-**Step 1: Clone the Repository**
-\`\`\`bash
-# Clone to a permanent location
-git clone https://github.com/astoreyai/ai_scientist.git ~/plugins/research-assistant
-cd ~/plugins/research-assistant
-\`\`\`
-
-**Step 2: Add as Local Marketplace**
-\`\`\`bash
-# In Claude Code, add the local directory as a marketplace
-/plugin marketplace add file://$(pwd)/.claude-plugin/marketplace.json
-\`\`\`
-
-**Step 3: Install from Local Marketplace**
-\`\`\`
-# Install the plugin
-/plugin install research-assistant@research-assistant-marketplace
-
-# Verify installation
-/plugin list
-# Should show: research-assistant@research-assistant-marketplace
-\`\`\`
-
-**Step 4: Verify Skills and Agents**
-\`\`\`
-# From any directory in Claude Code
-/skill list
-# Should show 22 skills
-
-/agent list
-# Should show 10 agents
-\`\`\`
-
----
-
-### Option 4: Test Local Marketplace (Development)
-
-**For testing marketplace installation locally:**
-
-\`\`\`bash
-# From the ai_scientist directory
-cd /path/to/ai_scientist
-
-# In Claude Code, add local directory as marketplace
-/plugin marketplace add file://$(pwd)/.claude-plugin/marketplace.json
-
-# Install from the local marketplace
-/plugin install research-assistant@research-assistant-marketplace
-
-# Verify
+# Step 3: Verify installation
 /skill list  # Should show 22 skills
 /agent list  # Should show 10 agents
-\`\`\`
+```
 
-**Step 5: Optional - Install Python Dependencies**
+***
 
-For MCP servers and advanced features:
+## Quick Start
 
-\`\`\`bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-\`\`\`
+### Approach 0: Run an AI-Check
 
-### Option 3: From Release Archive
+```bash
+# Detect AI-generated text in manuscripts
+/skill ai-check manuscript.tex
+# Returns confidence score: 0-30% (human), 30-70% (mixed), 70-100% (AI)
+```
 
-**Step 1: Download Release**
-\`\`\`bash
-# Download latest release
-wget https://github.com/astoreyai/ai_scientist/archive/refs/tags/v1.2.0-beta3.tar.gz
-tar -xzf v1.2.0-beta3.tar.gz
-cd ai_scientist-1.2.0-beta3
-\`\`\`
+### Approach 1: Invoke a Specialized Agent
 
-**Step 2: Verify Structure**
-\`\`\`bash
-# Check directory structure
-ls -la .claude-plugin/  # Should show plugin.json, marketplace.json
-ls skills/ | wc -l      # Should show 22 directories
-ls .claude/agents/ | wc -l  # Should show 10 files
-\`\`\`
-
-**Step 3: Open in Claude Code**
-Navigate to the directory in Claude Code or run:
-\`\`\`bash
-claude-code .
-\`\`\`
-
-### MCP Servers (Optional)
-
-Three MCP servers are included for enhanced functionality:
-- **literature-search** - Multi-database literature searches
-- **citation-manager** - BibTeX/Zotero integration, retraction checking
-- **research-db** - Structured data storage for systematic reviews
-
-See \`mcp-servers/README.md\` for installation instructions.
-
-### Troubleshooting
-
-**Plugin not loading:**
-\`\`\`bash
-# Enable debug mode to see detailed loading info
-claude --debug
-
-# Check Claude Code logs
-tail -f ~/.claude/logs/$(date +%Y-%m-%d).log
-\`\`\`
-
-**Skills not appearing:**
-1. Verify `.claude/settings.json` has plugin configuration:
-   \`\`\`bash
-   cat .claude/settings.json | grep -A 5 "plugins"
-   \`\`\`
-2. Verify all SKILL.md files exist:
-   \`\`\`bash
-   find skills/ -name "SKILL.md" | wc -l  # Should show 22
-   \`\`\`
-3. Check plugin path is correct (use `./` for current directory)
-4. Restart Claude Code
-
-**Agents not appearing:**
-1. Check `.claude/agents/` directory exists and has 10 files:
-   \`\`\`bash
-   ls -1 .claude/agents/*.md | wc -l  # Should show 10
-   \`\`\`
-2. Verify agent frontmatter:
-   \`\`\`bash
-   head -10 .claude/agents/literature-reviewer.md  # Should show YAML
-   \`\`\`
-3. Restart Claude Code
-
-**MCP servers not working:**
-1. Ensure Python dependencies installed:
-   \`\`\`bash
-   pip install -r requirements.txt
-   pip list | grep -E '(semanticscholar|biopython|sqlalchemy)'
-   \`\`\`
-2. Check MCP server configuration in Claude Code settings
-3. Test MCP server individually:
-   \`\`\`bash
-   cd mcp-servers/literature && python server.py --test
-   \`\`\`
-4. See `mcp-servers/README.md` for detailed setup
-
-**Permission errors:**
-\`\`\`bash
-# Fix permissions
-chmod -R u+rw .
-chmod +x .claude/hooks/*.sh .claude/hooks/*.py
-\`\`\`
-
-For additional help, see [GitHub Issues](https://github.com/astoreyai/ai_scientist/issues).
-
-### Uninstalling
-
-To remove the plugin:
-
-\`\`\`bash
-# If installed via marketplace (future)
-/plugin uninstall research-assistant
-
-# If manually linked
-rm ~/.claude/plugins/research-assistant
-
-# Clean up (optional)
-rm -rf ~/path/to/ai_scientist
-\`\`\`
-
-### Updating
-
-To update to a newer version:
-
-\`\`\`bash
-# If installed via marketplace (future)
-/plugin update research-assistant
-
-# If manually installed
-cd ~/path/to/ai_scientist
-git pull origin main
-# Restart Claude Code
-\`\`\`
-
----
-
-## Usage
-
-### Tutorial Learning Path
-1. Start with **Tutorial 1** (Getting Started) - Understand plugin basics
-2. Follow **Tutorial 2** (Literature Review) - Learn PRISMA workflow
-3. Try **Tutorial 3** (Experimental Design) - Master NIH standards
-4. Complete **Tutorial 5** (Complete Workflow) - End-to-end example
-5. Explore specialized tutorials based on your research needs
-
-### Using Templates
-\`\`\`bash
-# Copy a template to your project
-cp -r templates/systematic_review/ my_systematic_review/
-cd my_systematic_review/
-
-# Follow the template README
-cat README.md
-
-# Use the provided checklists and forms
-ls *.md *.csv
-\`\`\`
-
-### Working with Agents
-\`\`\`bash
-# Launch specialized agent
+```bash
+# Launch PRISMA 2020 systematic review agent
 /agent literature-reviewer
 
-# Or use via Claude Code task delegation
-# Claude Code will automatically delegate complex multi-step tasks
-# to specialized agents when appropriate
-\`\`\`
+# Agent guides you through:
+# 1. Multi-database search strategy
+# 2. Abstract screening workflow
+# 3. Risk of bias assessment
+# 4. PRISMA flow diagram generation
+```
 
-### AI-Check Integration
-\`\`\`bash
-# Standalone check
+### Approach 2: Complete Research Workflow
+
+```flow
+# Power user: Full systematic review
+/skill problem-formulation -> /agent literature-reviewer -> /skill gap-analysis -> /agent manuscript-writer
+# Validates FINER criteria → PRISMA 2020 review → Gap prioritization → Publication-ready manuscript
+```
+
+***
+
+## Core Features
+
+| Category | Skills | Capabilities |
+|----------|--------|--------------|
+| **Evidence Synthesis** | `systematic-review`, `scoping-review`, `meta-analysis`, `network-meta-analysis` | PRISMA 2020/PRISMA-ScR/PRISMA-MA compliance, forest plots, heterogeneity assessment |
+| **Experimental Design** | `rct-design`, `observational-study`, `pragmatic-trial`, `power-analysis` | CONSORT/STROBE reporting, NIH rigor standards, randomization protocols |
+| **Quality Improvement** | `pdsa-cycles`, `spc-charts`, `improvement-science` | SQUIRE 2.0 reporting, Model for Improvement, control charts |
+| **Qualitative Research** | `grounded-theory`, `phenomenology`, `qualitative-synthesis` | COREQ checklist, constant comparison, trustworthiness criteria |
+| **Implementation Science** | `reaim-framework`, `cfir-assessment`, `hybrid-designs` | RE-AIM, CFIR 39 constructs, ERIC strategies |
+| **Statistical Analysis** | `effect-sizes`, `assumption-testing`, `sensitivity-analysis` | Reproducible R/Python code, confidence intervals, power calculations |
+| **Writing Support** | `manuscript-drafting`, `grant-proposals`, `dissertation-structure` | NIH R01 proposals, CONSORT/PRISMA manuscripts, LaTeX formatting |
+| **Quality Assurance** | `ai-check`, `reproducibility-validation`, `protocol-adherence` | AI-text detection, git/DVC integration, pre-registration |
+
+***
+
+## Specialized Agents
+
+### Evidence Synthesis Agents
+- **literature-reviewer** - PRISMA 2020 systematic reviews with inter-rater reliability
+- **meta-reviewer** - Quality assessment using AMSTAR 2 criteria
+- **gap-analyst** - Systematic gap identification and research prioritization
+
+### Design & Analysis Agents
+- **experiment-designer** - NIH-rigorous protocols with pre-registration
+- **data-analyst** - Reproducible statistical analysis with effect sizes
+- **hypothesis-generator** - Tree-of-Thought hypothesis evolution
+
+### Writing & Quality Agents
+- **manuscript-writer** - CONSORT/PRISMA-compliant publication drafts
+- **citation-manager** - BibTeX/Zotero integration, retraction checking
+- **quality-assurance** - Protocol validation and reproducibility audits
+- **code-reviewer** - Statistical code correctness verification
+
+***
+
+## Interactive Tutorials
+
+**11 comprehensive tutorials, 280KB total, 8 hours of training**
+
+| Tutorial | Focus | Duration | Key Outputs |
+|----------|-------|----------|-------------|
+| **Getting Started** | Plugin basics, workflow overview | 25 min | First systematic review setup |
+| **Literature Review** | PRISMA 2020 end-to-end | 45 min | Complete PRISMA flow diagram |
+| **Experimental Design** | NIH rigor standards | 40 min | Pre-registered RCT protocol |
+| **AI-Check Deep Dive** | AI-text detection | 30 min | Pre-commit hook integration |
+| **Complete Workflow** | Idea → publication | 60 min | Full RCT manuscript (meditation study) |
+| **Multi-Site Trials** | Consortium coordination | 50 min | Data harmonization protocol |
+| **Mixed Methods** | Integration strategies | 55 min | Joint display tables, GRAM compliance |
+| **Grant Proposals** | NIH R01 writing | 60 min | Complete Specific Aims + approach |
+| **Qualitative Research** | Grounded theory | 50 min | COREQ-compliant analysis (NVivo) |
+| **Meta-Analysis** | Random effects models | 55 min | Forest plots, publication bias tests |
+| **Implementation Science** | RE-AIM/CFIR | 55 min | TF-CBT implementation evaluation |
+
+***
+
+## Research Templates
+
+**10 production-ready templates with checklists and protocols**
+
+### Evidence Synthesis
+- **Systematic Review** - PRISMA 2020 27-item checklist, risk of bias tools
+- **Scoping Review** - PRISMA-ScR 22-item, PCC framework, Arksey & O'Malley
+- **Network Meta-Analysis** - PRISMA-NMA 32-item, SUCRA rankings, league tables
+
+### Experimental Studies
+- **RCT Study** - CONSORT 2010, allocation concealment, analysis plan
+- **Observational Study** - STROBE checklist, confounder identification
+- **Pragmatic Trial** - PRECIS-2 9-domain scoring, real-world effectiveness
+
+### Specialized Methods
+- **Computational Methods** - Algorithm validation, reproducibility standards
+- **Quality Improvement** - SQUIRE 2.0 18-item, PDSA cycles, SPC charts
+
+### Academic Development
+- **PhD Dissertation** - Chapter structure, timeline, committee agendas
+- **Advisor Communication** - Meeting templates, milestone tracking
+
+***
+
+## AI-Check System
+
+Detect AI-generated text patterns to ensure authentic academic writing.
+
+**Detection Methods:**
+- Grammar perfection analysis (>95% correctness flags)
+- Sentence uniformity detection (15-25 word consistency patterns)
+- AI-typical vocabulary ("delve", "leverage", "robust", "comprehensive")
+- Style consistency scoring
+
+**Integration Modes:**
+
+```bash
+# Standalone manuscript analysis
 python tools/ai_check.py manuscript.tex
 
-# Enable pre-commit hook
-cp hooks/pre-commit .git/hooks/
-chmod +x .git/hooks/pre-commit
+# Pre-commit hook (blocks high-AI commits)
+cp hooks/pre-commit .git/hooks/ && chmod +x .git/hooks/pre-commit
 
-# Check specific sections
-python tools/ai_check.py manuscript.tex --section introduction
-\`\`\`
+# Section-specific checking
+python tools/ai_check.py manuscript.tex --section methods
+```
 
----
+**Confidence Scoring:**
+- **0-30%**: Likely human-written
+- **30-70%**: Possible AI assistance, review flagged sections
+- **70-100%**: Likely AI-generated, manual rewrite recommended
 
-## Documentation
+***
 
-- **Tutorials**: See \`tutorials/\` directory (11 comprehensive tutorials)
-- **Templates**: See \`templates/\` directory (10 research templates)
-- **Changelog**: [CHANGELOG.md](CHANGELOG.md) - Complete version history
-- **License**: [LICENSE](LICENSE) - MIT License
-- **Installation Guide**: \`docs/INSTALLATION.md\`
-- **User Guide**: \`docs/USER_GUIDE.md\`
+## Real-World Examples
 
----
+### Example 1: PRISMA Systematic Review
+
+```flow
+# Complete systematic review workflow
+/skill problem-formulation FINER
+  -> /agent literature-reviewer
+    # Multi-database search: PubMed, Embase, PsycINFO
+    # 2,847 records identified → 124 full-text reviewed → 23 included
+  -> /skill risk-of-bias
+    # Cochrane RoB 2 assessment
+  -> /skill meta-analysis
+    # Random effects model, I² = 68%
+  -> /agent manuscript-writer PRISMA
+    # Publication-ready manuscript with flow diagram
+```
+
+### Example 2: NIH-Rigorous RCT
+
+```flow
+# Pre-registered randomized controlled trial
+/skill rct-design
+  -> /skill power-analysis effect_size=0.5
+    # 80% power, alpha=0.05 → N=128 required
+  -> /skill randomization seed=42
+    # Permuted block randomization (block size 4)
+  -> /skill preregistration OSF
+    # Timestamped protocol registration
+  -> /agent data-analyst
+    # Intention-to-treat analysis with effect sizes
+```
+
+### Example 3: Grant Proposal Development
+
+```flow
+# NIH R01 proposal from concept to submission
+/skill specific-aims
+  -> /skill significance-innovation
+  -> /skill approach-section
+    # Experimental design, power analysis, timeline
+  -> /skill human-subjects
+    # Inclusion/exclusion, recruitment, protection plans
+  -> /agent quality-assurance NIH-checklist
+    # Validates all required components
+```
+
+***
+
+## Research Coverage
+
+**Quantitative Methods**: RCTs, observational studies, meta-analysis, network meta-analysis
+
+**Qualitative Methods**: Grounded theory, phenomenology, ethnography, qualitative synthesis
+
+**Mixed Methods**: Convergent, sequential, embedded designs with integration strategies
+
+**Evidence Synthesis**: Systematic reviews, scoping reviews, meta-analyses (fixed/random effects)
+
+**Implementation Science**: RE-AIM, CFIR, ERIC strategies, hybrid effectiveness-implementation designs
+
+**Quality Improvement**: PDSA cycles, statistical process control, SQUIRE 2.0 reporting
+
+**Grant Writing**: NIH R01/R03/R21 proposals, specific aims, significance/innovation/approach
+
+***
+
+## Quality Standards
+
+| Standard | Application | Validation |
+|----------|-------------|------------|
+| **PRISMA 2020** | Systematic reviews | 27-item checklist (24/27 minimum) |
+| **CONSORT** | RCTs | 30-item checklist, flow diagram |
+| **STROBE** | Observational studies | 22-item checklist |
+| **SQUIRE 2.0** | Quality improvement | 18-item checklist |
+| **COREQ** | Qualitative research | 32-item checklist |
+| **NIH Rigor** | All experimental | Power ≥80%, pre-registration, SABV |
+| **PRECIS-2** | Pragmatic trials | 9-domain scoring (0-5 each) |
+| **PRISMA-MA** | Meta-analyses | 32-item checklist, heterogeneity tests |
+
+***
+
+## Reproducibility Tools
+
+**Version Control Integration:**
+- Git tracking for code, protocols, manuscripts
+- DVC (Data Version Control) for large datasets (>10MB auto-tracked)
+- Pre-commit hooks for quality gates (AI-check, linting)
+
+**Experiment Tracking:**
+- MLflow integration for statistical analyses
+- Random seed documentation
+- Complete dependency pinning (requirements.txt)
+
+**Containerization:**
+- Docker environments for reproducible analysis
+- All code executable in clean containers
+
+**Pre-Registration:**
+- OSF integration templates
+- Timestamped protocol submission
+- Analysis plan versioning
+
+***
 
 ## Requirements
 
-- **Claude Code** - Latest version recommended
-- **Python 3.8+** - For MCP servers and tools (optional)
-- **R 4.0+** - For meta-analysis templates (optional)
-- **Git** - For version control
-- **LaTeX** - For PDF generation (optional)
+- **Claude Code** (latest version)
+- **Python 3.8+** (for MCP servers, optional)
+- **R 4.0+** (for meta-analysis templates, optional)
+- **Git** (for version control)
 
----
+***
 
 ## Project Structure
 
-\`\`\`
-ai_scientist/
+```
+research-assistant/
+├── skills/              # 22 specialized research skills
+├── .claude/agents/      # 10 intelligent research agents
 ├── tutorials/           # 11 interactive tutorials (280KB)
-│   ├── 01_getting_started/
-│   ├── 02_literature_review/
-│   ├── 03_experimental_design/
-│   ├── 04_ai_check/
-│   ├── 05_complete_workflow/
-│   ├── 06_multisite_trials/
-│   ├── 07_mixed_methods/
-│   ├── 08_grant_proposals/
-│   ├── 09_qualitative_research/
-│   ├── 10_meta_analysis/
-│   └── 11_implementation_science/
-│
-├── templates/           # 10 research templates
-│   ├── systematic_review/
-│   ├── scoping_review/
-│   ├── network_meta_analysis/
-│   ├── rct_study/
-│   ├── observational_study/
-│   ├── pragmatic_trial/
-│   ├── computational_methods/
-│   ├── quality_improvement/
-│   ├── phd_dissertation/
-│   └── advisor_communication/
-│
-├── code/                # Core plugin code
-│   ├── orchestrator.py
-│   ├── research_workflow.py
-│   ├── quality_assurance/
-│   └── validators/
-│
-├── mcp-servers/         # MCP server implementations
-│   ├── literature/
-│   ├── citations/
-│   └── research_db/
-│
-├── tests/               # Comprehensive test suite (116 tests, 57% coverage)
-├── automation/          # Setup and build scripts
-├── hooks/               # Pre-commit hooks (AI-check)
-└── .claude/             # Claude Code configuration
-\`\`\`
+├── templates/           # 10 production-ready research templates
+├── mcp-servers/         # Literature search, citations, research DB
+├── tools/               # AI-check, validators, quality assurance
+├── hooks/               # Pre-commit hooks for quality gates
+└── tests/               # 116 tests, 57% coverage
+```
 
----
+***
 
-## Testing
+## Support
 
-\`\`\`bash
-# Run full test suite
-pytest
+**GitHub Issues**: [Report bugs or request features](https://github.com/astoreyai/ai_scientist/issues)
 
-# Run with coverage
-pytest --cov=code --cov-report=html
+**Email**: aaron@astoreyai.com
 
-# View coverage report
-open htmlcov/index.html
-\`\`\`
+**Documentation**: See `tutorials/` directory for 11 comprehensive guides
 
-**Current Test Coverage**: 57% (116 tests passing)
-
----
-
-## Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (\`git checkout -b feature/amazing-feature\`)
-3. Write tests for new functionality
-4. Ensure all tests pass (\`pytest\`)
-5. Commit changes with clear messages
-6. Push to your fork
-7. Open a Pull Request
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
----
-
-## Roadmap
-
-### v1.2.0 Final Release
-- Complete documentation review
-- External user testing
-- Security audit
-- PyPI package distribution (optional)
-
-### v1.3.0 (Planned)
-- Additional tutorials (12-15): Machine learning, causal inference, Bayesian methods
-- Template expansions: Case-control studies, cross-sectional surveys
-- Enhanced MCP server capabilities
-- Continuous integration workflows
-
-### v2.0.0 (Future)
-- Full autonomous research mode
-- Interactive web dashboard
-- Collaborative multi-user workflows
-- Integration with additional reference managers
-
----
+***
 
 ## Citation
 
-If you use this plugin in your research, please cite:
+If you use this plugin in your research:
 
-\`\`\`bibtex
+```bibtex
 @software{research_assistant_2024,
   author = {Storey, Aaron},
   title = {Research Assistant for Claude Code},
@@ -713,40 +319,16 @@ If you use this plugin in your research, please cite:
   version = {1.2.0-beta3},
   url = {https://github.com/astoreyai/ai_scientist}
 }
-\`\`\`
+```
 
----
+***
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
----
-
-## Support
-
-- **Issues**: [GitHub Issues](https://github.com/astoreyai/ai_scientist/issues)
-- **Email**: aaron@astoreyai.com
-- **Discussions**: [GitHub Discussions](https://github.com/astoreyai/ai_scientist/discussions)
-
----
-
-## Acknowledgments
-
-This plugin implements research standards and reporting guidelines from:
-- PRISMA 2020 (Page et al., 2021)
-- CONSORT (Schulz et al., 2010)
-- NIH Rigor and Reproducibility Guidelines
-- RE-AIM Framework (Glasgow et al., 1999)
-- CFIR (Damschroder et al., 2009)
-- PRECIS-2 (Loudon et al., 2015)
-- SQUIRE 2.0 (Ogrinc et al., 2016)
-- COREQ (Tong et al., 2007)
-
-Special thanks to the research methods community for developing these invaluable standards.
-
----
+***
 
 **Professional research workflow automation for academics**
 
-**Version**: 1.2.0-beta3 | **Last Updated**: 2025-11-11 | **Total Content**: 280KB tutorials + 10 templates
+**22 Skills** | **10 Agents** | **11 Tutorials** | **10 Templates** | **PRISMA 2020 + NIH Compliant**
