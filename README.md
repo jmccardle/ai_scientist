@@ -300,66 +300,105 @@ Detect AI-generated text patterns to ensure authentic academic writing:
 
 ## Installation
 
-### Option 1: Claude Code Marketplace (Recommended)
+### Option 1: Local Development (If You're Already Here)
+
+**If you've cloned this repository and are working in it**, the plugin auto-loads when you open Claude Code in this directory. No installation command needed!
+
+**Just open Claude Code here:**
+\`\`\`bash
+# Make sure you're in the ai_scientist directory
+cd /path/to/ai_scientist
+
+# Open Claude Code in this directory
+claude-code .
+\`\`\`
+
+**Verify it's working:**
+\`\`\`
+# List available skills
+/skill list
+# Should show 22 skills
+
+# List available agents
+/agent list
+# Should show 10 agents
+\`\`\`
+
+**Why it works:** The plugin is configured in `.claude/settings.json` to auto-load from the current directory (`"source": "./"`).
+
+**Note:** DO NOT use `/plugin install research-assistant` when you're already in the plugin directory. That command is for installing from remote marketplaces.
+
+---
+
+### Option 2: Official Marketplace (Future)
 
 Once available on the Claude Code marketplace:
 
 \`\`\`
-# In Claude Code
+# In Claude Code (from any directory)
+/plugin marketplace add https://marketplace.claude.com/research-assistant
 /plugin install research-assistant
 \`\`\`
 
-### Option 2: Manual Installation from GitHub
+---
+
+### Option 3: Manual Installation from GitHub
+
+**For users who want to use the plugin from any directory:**
 
 **Step 1: Clone the Repository**
 \`\`\`bash
-# Clone to your preferred location
-git clone https://github.com/astoreyai/ai_scientist.git
-cd ai_scientist
+# Clone to a permanent location
+git clone https://github.com/astoreyai/ai_scientist.git ~/plugins/research-assistant
+cd ~/plugins/research-assistant
 \`\`\`
 
-**Step 2: Configure Claude Code Plugin**
-
-The plugin auto-loads from the `.claude/settings.json` configuration. To verify:
-
+**Step 2: Add as Local Marketplace**
 \`\`\`bash
-# Check that .claude/settings.json contains plugin configuration
-cat .claude/settings.json
+# In Claude Code, add the local directory as a marketplace
+/plugin marketplace add file://$(pwd)/.claude-plugin/marketplace.json
 \`\`\`
 
-You should see:
-\`\`\`json
-{
-  "plugins": [
-    {
-      "source": "./",
-      "name": "research-assistant"
-    }
-  ]
-}
+**Step 3: Install from Local Marketplace**
+\`\`\`
+# Install the plugin
+/plugin install research-assistant@research-assistant-marketplace
+
+# Verify installation
+/plugin list
+# Should show: research-assistant@research-assistant-marketplace
 \`\`\`
 
-**Step 3: Open in Claude Code**
-
-\`\`\`bash
-# Open the directory in Claude Code
-claude-code .
-# Or navigate to the directory in Claude Code UI
+**Step 4: Verify Skills and Agents**
 \`\`\`
-
-**Step 4: Verify Installation**
-
-In Claude Code, check that skills and agents are loaded:
-
-\`\`\`
-# List available skills
+# From any directory in Claude Code
 /skill list
+# Should show 22 skills
 
-# List available agents
 /agent list
+# Should show 10 agents
 \`\`\`
 
-You should see 22 skills and 10 agents.
+---
+
+### Option 4: Test Local Marketplace (Development)
+
+**For testing marketplace installation locally:**
+
+\`\`\`bash
+# From the ai_scientist directory
+cd /path/to/ai_scientist
+
+# In Claude Code, add local directory as marketplace
+/plugin marketplace add file://$(pwd)/.claude-plugin/marketplace.json
+
+# Install from the local marketplace
+/plugin install research-assistant@research-assistant-marketplace
+
+# Verify
+/skill list  # Should show 22 skills
+/agent list  # Should show 10 agents
+\`\`\`
 
 **Step 5: Optional - Install Python Dependencies**
 
