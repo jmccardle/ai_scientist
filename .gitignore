@@ -119,6 +119,7 @@ Thumbs.db
 .claude/prompt-validation.log
 .claude/pre-compact.log
 .claude/stop-validation.log
+.claude-conversations/
 
 # Distribution and review reports
 CODE_REVIEW_REPORT.md
