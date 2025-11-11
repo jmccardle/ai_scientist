@@ -6,6 +6,148 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+
+
+## [1.2.0-beta3] - 2025-11-10
+
+### Added
+
+#### Advanced Research Tutorials (Tutorials 9-11)
+- **Tutorial 9: Qualitative-Only Research** (26KB, 50 minutes) - Complete qualitative research methods:
+  - Choosing methodology (grounded theory, phenomenology, ethnography)
+  - Charmaz constructivist grounded theory approach
+  - Purposive and theoretical sampling to saturation
+  - In-depth interview guide development (5-part structure, 60-90 min)
+  - Constant comparison analysis (open → axial → selective coding)
+  - NVivo coding workflow (167 codes → 4 categories)
+  - Trustworthiness criteria (Lincoln & Guba: credibility, transferability, dependability, confirmability)
+  - Member checking and reflexivity statements
+  - COREQ 32-item reporting checklist compliance
+  - Real example: Recovery from depression qualitative study
+
+- **Tutorial 10: Meta-Analysis Deep Dive** (24KB, 55 minutes) - Comprehensive meta-analysis methods:
+  - Fixed vs. random effects model selection with visual comparisons
+  - Effect size calculation (SMD, MD, RR, OR) with worked examples
+  - Forest plot creation and interpretation with conceptual ASCII visualization
+  - Heterogeneity assessment (Q-statistic, I², τ² with interpretation guidelines)
+  - Subgroup analysis and meta-regression examples
+  - Publication bias detection (funnel plots, Egger's test, trim-and-fill)
+  - Sensitivity analyses (quality, outliers, leave-one-out)
+  - R metafor package with complete annotated code
+  - PRISMA-MA reporting checklist
+  - Real example: 43 RCTs on mindfulness for adolescent anxiety
+
+- **Tutorial 11: Implementation Science** (55KB, 55 minutes) - Translating research to practice:
+  - RE-AIM framework (Reach, Effectiveness, Adoption, Implementation, Maintenance)
+  - CFIR assessment (5 domains, 39 constructs) with barrier identification
+  - ERIC implementation strategies (73 strategies, 9 clusters) with selection guidance
+  - Hybrid effectiveness-implementation designs (Types 1, 2, 3)
+  - Proctor's 8 implementation outcomes (acceptability, adoption, appropriateness, feasibility, fidelity, cost, penetration, sustainability)
+  - Adaptation vs. fidelity tension with decision tree
+  - Implementation plan development with timeline and budget
+  - Real example: TF-CBT implementation across 12 community clinics
+
+Tutorial files (105KB total):
+- `tutorials/09_qualitative_research/README.md` (26KB, 50 minutes)
+- `tutorials/10_meta_analysis/README.md` (24KB, 55 minutes)
+- `tutorials/11_implementation_science/README.md` (55KB, 55 minutes)
+
+#### Specialized Research Templates (Templates 5-8)
+
+- **Scoping Review Template** - Arksey & O'Malley framework with PRISMA-ScR compliance:
+  - PCC framework (Population, Concept, Context) for research questions
+  - 5-stage methodology (identify question, identify studies, select, chart, synthesize)
+  - Iterative search strategy development
+  - Two-stage screening process with inter-rater reliability
+  - Data charting forms (NOT "extraction" - broader, iterative)
+  - PRISMA-ScR 22-item checklist (20 required + 2 optional)
+  - Evidence mapping and gap analysis
+  - Complete protocol, search strategy, screening forms, and checklist templates
+
+- **Network Meta-Analysis Template** - Mixed treatment comparisons with ranking:
+  - Network geometry visualization (nodes, edges, connectivity assessment)
+  - Direct vs. indirect vs. mixed evidence concepts
+  - Transitivity assumption checking (effect modifier comparison)
+  - Consistency assessment (global and local node-splitting tests)
+  - Frequentist approach with R netmeta package (complete annotated code)
+  - SUCRA/P-scores for treatment ranking with interpretation
+  - League tables for all pairwise comparisons
+  - PRISMA-NMA 32-item checklist compliance
+  - GRADE/CINeMA framework for certainty assessment
+  - Comparison-adjusted funnel plots for publication bias
+
+- **Pragmatic Trial Template** - Real-world effectiveness trials with PRECIS-2:
+  - PRECIS-2 tool (9 domains scoring 1-5: explanatory to pragmatic continuum)
+  - Domain-by-domain guidance (eligibility, recruitment, setting, organisation, flexibility delivery, flexibility adherence, follow-up, primary outcome, primary analysis)
+  - PRECIS-2 wheel visualization with interpretation
+  - Strict intention-to-treat analysis requirements
+  - Patient-important outcomes vs. surrogate endpoints
+  - Sample size calculations accounting for real-world effects
+  - CONSORT Extension for Pragmatic Trials checklist
+  - Real example: Depression care in community primary care (50 practices)
+
+- **Quality Improvement Template** - Healthcare QI using PDSA cycles:
+  - Model for Improvement (3 questions + PDSA cycles)
+  - SMART aim statement development
+  - Three types of measures (outcome, process, balancing)
+  - Key driver diagram creation (aim → primary → secondary drivers → change ideas)
+  - Iterative PDSA cycle documentation (Plan-Do-Study-Act)
+  - Statistical process control (SPC) charts (run charts and control charts)
+  - Special cause variation detection rules
+  - R qicharts2 package for control chart creation
+  - Sustainability planning strategies
+  - SQUIRE 2.0 18-item reporting checklist
+  - QI vs. research distinction guidance
+  - Real example: Reducing hospital-acquired pressure injuries (8.2 → 2.8 per 1,000 patient-days)
+
+Template files (4 comprehensive templates):
+- `templates/scoping_review/` (README.md, protocol, search strategy, screening forms, PRISMA-ScR checklist)
+- `templates/network_meta_analysis/` (README.md, R code template, PRISMA-NMA checklist)
+- `templates/pragmatic_trial/` (README.md, PRECIS-2 scoresheet, CONSORT extension checklist)
+- `templates/quality_improvement/` (README.md, project charter, PDSA forms, SQUIRE checklist)
+
+### Tutorial & Template Suite Summary
+
+**Complete Collection** (11 tutorials + 8 templates):
+
+**Tutorials** (11 total, 280KB):
+1. Getting Started (8.5KB, 15 min) - Plugin basics
+2. Literature Review (28KB, 45 min) - PRISMA 2020 workflow
+3. Experimental Design (29KB, 40 min) - NIH rigor + CONSORT
+4. AI-Check Deep Dive (18KB, 30 min) - Quality assurance
+5. Complete Workflow (32KB, 60 min) - Idea → publication
+6. Multi-Site Trials (27KB, 50 min) - Consortium coordination
+7. Mixed Methods (28KB, 55 min) - Qual + quan integration
+8. Grant Proposals (31KB, 60 min) - NIH R01 writing
+9. Qualitative Research (26KB, 50 min) - Grounded theory, COREQ ← NEW
+10. Meta-Analysis (24KB, 55 min) - Forest plots, heterogeneity, publication bias ← NEW
+11. Implementation Science (55KB, 55 min) - RE-AIM, CFIR, ERIC, PRECIS-2 ← NEW
+
+**Templates** (8 total):
+1. Systematic Review - PRISMA 2020
+2. Observational Study - STROBE
+3. Computational Methods - Algorithm development
+4. Research Proposal - Grant writing
+5. Scoping Review - Arksey & O'Malley + PRISMA-ScR ← NEW
+6. Network Meta-Analysis - Mixed treatment comparisons ← NEW
+7. Pragmatic Trial - PRECIS-2 + CONSORT extension ← NEW
+8. Quality Improvement - PDSA + SQUIRE 2.0 ← NEW
+
+**Total Learning Time**: 8 hours comprehensive research training
+
+**Coverage**:
+- ✅ Quantitative methods (RCT, observational, meta-analysis, network meta-analysis)
+- ✅ Qualitative methods (grounded theory, phenomenology, ethnography)
+- ✅ Mixed methods (convergent, sequential designs)
+- ✅ Evidence synthesis (systematic review, scoping review, meta-analysis, network meta-analysis)
+- ✅ Implementation science (RE-AIM, CFIR, ERIC, hybrid designs)
+- ✅ Quality improvement (PDSA, SPC charts)
+- ✅ Real-world effectiveness (pragmatic trials, PRECIS-2)
+- ✅ Grant writing (NIH R01)
+- ✅ Multi-site research (consortium coordination)
+
+---
+
 ## [1.2.0-beta2] - 2025-11-10
 
 ### Added
