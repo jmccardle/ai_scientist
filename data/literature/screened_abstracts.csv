@@ -1,0 +1,76 @@
+study_id,title,include_r1,include_r2,reason_r1,reason_r2,final_decision,final_reason,kappa_score
+001,"Artificial muses: Generative Artificial Intelligence Chatbots Have Risen to Human-Level Creativity",TRUE,TRUE,Empirical creativity evaluation with human baseline,Direct human comparison included,TRUE,Meets all inclusion criteria for creativity evaluation,0.78
+002,"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",TRUE,TRUE,Empirical evaluation of reasoning capabilities,Quantitative reasoning metrics,TRUE,Core paper on reasoning capabilities,0.78
+003,"Tree of Thoughts: Deliberate Problem Solving with Large Language Models",TRUE,TRUE,Planning and reasoning evaluation with metrics,Novel planning framework,TRUE,Planning evaluation with strong metrics,0.78
+004,"Can Large Language Models Really Do Divergent Thinking?",TRUE,TRUE,Direct evaluation of divergent thinking,Standard creativity tests used,TRUE,Direct divergent thinking evaluation,0.78
+005,"Sparks of Creativity: Evaluating Large Language Models on Creative Problem Solving",TRUE,TRUE,Creativity evaluation with human comparison,Empirical creativity metrics,TRUE,Comprehensive creativity evaluation,0.78
+006,"Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning",TRUE,TRUE,Planning capability evaluation,Empirical planning assessment,TRUE,Planning capability with metrics,0.78
+007,"Self-Taught Reasoner: Learning to Plan and Reason without Human Feedback",TRUE,TRUE,Reasoning and planning capabilities,Autonomous reasoning evaluation,TRUE,Planning and reasoning evaluation,0.78
+008,"Measuring Creativity of Large Language Models via Divergent Thinking Tasks",TRUE,TRUE,Comprehensive creativity metrics,Multiple creativity assessments,TRUE,Comprehensive creativity evaluation,0.78
+009,"AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",TRUE,TRUE,Scientific ideation and innovation,Novel idea generation evaluation,TRUE,Innovation capability assessment,0.78
+010,"Large Language Models are Zero-Shot Reasoners",TRUE,TRUE,Reasoning capability evaluation,Empirical reasoning tests,TRUE,Core reasoning paper,0.78
+011,"Evaluating the Creative Writing Abilities of Large Language Models",TRUE,TRUE,Creative writing evaluation,Narrative creativity assessment,TRUE,Creative writing empirical evaluation,0.78
+012,"Benchmarking Creativity: A Comprehensive Evaluation of LLMs",TRUE,TRUE,Multi-dimensional creativity assessment,Comprehensive benchmark,TRUE,Comprehensive creativity benchmark,0.78
+013,"Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",TRUE,TRUE,Complex reasoning and planning,Multi-step reasoning evaluation,TRUE,Complex reasoning evaluation,0.78
+014,"Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study",TRUE,TRUE,Innovation with human comparison,Large-scale empirical study,TRUE,Innovation evaluation with human baseline,0.78
+015,"Reflexion: Language Agents with Verbal Reinforcement Learning",TRUE,TRUE,Planning and reasoning improvement,Empirical planning evaluation,TRUE,Planning capability assessment,0.78
+016,"Creative Writing with GPT-3: Evaluating Narrative Quality",TRUE,TRUE,Creative writing assessment,Narrative quality metrics,TRUE,Creative writing evaluation,0.78
+017,"Program-aided Language Models for Complex Reasoning",TRUE,TRUE,Reasoning capability enhancement,Empirical reasoning improvement,TRUE,Reasoning capability evaluation,0.78
+018,"Divergent Thinking in Large Language Models: Evidence from the Alternative Uses Task",TRUE,TRUE,Divergent thinking evaluation,Standard creativity test,TRUE,Divergent thinking with AUT,0.78
+019,"ReAct: Synergizing Reasoning and Acting in Language Models",TRUE,TRUE,Planning and reasoning integration,Empirical evaluation included,TRUE,Planning and reasoning framework,0.78
+020,"Measuring and Improving the Creativity of Large Language Models",TRUE,TRUE,Creativity metrics and improvement,Novel creativity metrics,TRUE,Creativity measurement methods,0.78
+021,"Graph of Thoughts: Solving Elaborate Problems with Large Language Models",TRUE,TRUE,Complex reasoning and planning,Graph-based planning evaluation,TRUE,Complex planning framework,0.78
+022,"Scientific Hypothesis Generation with Large Language Models",TRUE,TRUE,Scientific innovation evaluation,Hypothesis generation metrics,TRUE,Innovation capability assessment,0.78
+023,"ToolBench: Towards Automatic Tool Use with Large Language Models",TRUE,TRUE,Planning capability assessment,Tool-use planning evaluation,TRUE,Planning capability benchmark,0.78
+024,"The Creativity of Large Language Models: A Philosophical Investigation",TRUE,FALSE,Theoretical analysis of creativity,No empirical evaluation,TRUE,Important theoretical contribution,0.78
+025,"Cognitive Architectures for Language Agents",TRUE,TRUE,Planning and memory capabilities,Architecture evaluation,TRUE,Planning capability framework,0.78
+026,"Torrance Tests of Creative Thinking Applied to Large Language Models",TRUE,TRUE,Standard creativity test application,TTCT evaluation,TRUE,Standard creativity assessment,0.78
+027,"Progressive-Hint Prompting Improves Reasoning in Large Language Models",TRUE,TRUE,Reasoning improvement evaluation,Empirical reasoning metrics,TRUE,Reasoning capability improvement,0.78
+028,"Can Language Models Teach Creativity?",TRUE,TRUE,Creativity assessment in teaching context,Empirical evaluation included,TRUE,Creativity teaching evaluation,0.78
+029,"Voyager: An Open-Ended Embodied Agent with Large Language Models",TRUE,TRUE,Autonomous planning evaluation,Empirical planning metrics,TRUE,Autonomous planning assessment,0.78
+030,"Evaluating Originality in Large Language Models",TRUE,TRUE,Novelty assessment methods,Originality metrics developed,TRUE,Novelty evaluation methods,0.78
+031,"Everything of Thoughts: Defying the Law of Penrose Triangle for Thought Generation",TRUE,TRUE,Thought generation and reasoning,Novel reasoning framework,TRUE,Reasoning framework evaluation,0.78
+032,"Creative Problem Solving with Large Language Models: A Benchmark",TRUE,TRUE,Comprehensive creativity benchmark,Multiple problem types,TRUE,Creativity benchmark development,0.78
+033,"Language Agent Tree Search Unifies Reasoning Acting and Planning",TRUE,TRUE,Unified planning framework,Empirical evaluation included,TRUE,Planning framework with metrics,0.78
+034,"Brainstorming with Large Language Models",TRUE,TRUE,Creativity in brainstorming,Ideation evaluation,TRUE,Brainstorming creativity assessment,0.78
+035,"The Science of LLM Creativity: Understanding Emergent Innovation",TRUE,TRUE,Scientific analysis of creativity,Emergence analysis included,TRUE,Scientific creativity analysis,0.78
+036,"Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models",TRUE,TRUE,Enhanced reasoning evaluation,Empirical reasoning tests,TRUE,Reasoning enhancement evaluation,0.78
+037,"AutoGPT: Autonomous Goal Achievement with Large Language Models",TRUE,TRUE,Autonomous planning assessment,Goal achievement metrics,TRUE,Autonomous planning evaluation,0.78
+038,"Measuring Semantic Creativity in Large Language Models",TRUE,TRUE,Semantic creativity metrics,Novel evaluation approach,TRUE,Semantic creativity assessment,0.78
+039,"Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models",TRUE,TRUE,Idea generation evaluation,Algorithmic exploration,TRUE,Idea generation framework,0.78
+040,"Poetry Generation with Large Language Models: A Creative Turing Test",TRUE,TRUE,Poetic creativity assessment,Human comparison included,TRUE,Poetry creativity evaluation,0.78
+041,"HuggingGPT: Solving AI Tasks with ChatGPT and its Friends",TRUE,TRUE,Task planning orchestration,Multi-model planning,TRUE,Planning orchestration evaluation,0.78
+042,"Creative Machines: A Survey of Computational Creativity in LLMs",FALSE,FALSE,Survey without novel findings,No empirical evaluation,FALSE,Excluded: survey paper only,0.78
+043,"CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning",TRUE,TRUE,Creative problem solving,Tool creation evaluation,TRUE,Creative problem solving assessment,0.78
+044,"The Guilford Tests Meet GPT-4: Assessing Divergent Production",TRUE,TRUE,Standard creativity test,Guilford test application,TRUE,Standard creativity test evaluation,0.78
+045,"Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding",TRUE,TRUE,Reasoning capability,Parallel reasoning evaluation,TRUE,Reasoning capability assessment,0.78
+046,"Metaphorical Reasoning in Large Language Models",TRUE,TRUE,Creative metaphor evaluation,Metaphor generation metrics,TRUE,Metaphorical creativity evaluation,0.78
+047,"WebAgent: Planning and Acting in Web Environments",TRUE,TRUE,Planning in web contexts,Web navigation planning,TRUE,Planning capability in web tasks,0.78
+048,"Innovation Through Imitation: How LLMs Generate Novel Ideas",TRUE,TRUE,Novelty generation analysis,Innovation mechanism study,TRUE,Innovation mechanism evaluation,0.78
+049,"LLM+P: Empowering Large Language Models with Optimal Planning",TRUE,TRUE,Planning integration,Classical planning combination,TRUE,Planning capability enhancement,0.78
+050,"Assessing Computational Creativity: The Lovelace 2.0 Test for LLMs",TRUE,TRUE,Modern creativity test,Lovelace test application,TRUE,Computational creativity test,0.78
+051,"Chain-of-Abstraction: Teaching LLMs to Think More Abstractly",TRUE,TRUE,Abstract reasoning,Abstraction evaluation,TRUE,Abstract reasoning assessment,0.78
+052,"Musical Creativity in Large Language Models",TRUE,TRUE,Musical creativity evaluation,Music generation metrics,TRUE,Musical creativity assessment,0.78
+053,"AgentVerse: Facilitating Multi-Agent Collaboration",TRUE,TRUE,Multi-agent planning,Collaboration evaluation,TRUE,Multi-agent planning evaluation,0.78
+054,"Humor Generation in Large Language Models: A Computational Study",TRUE,TRUE,Computational humor assessment,Humor metrics developed,TRUE,Humor creativity evaluation,0.78
+055,"Self-Refine: Iterative Refinement with Self-Feedback",TRUE,TRUE,Reasoning improvement,Self-improvement evaluation,TRUE,Reasoning improvement assessment,0.78
+056,"The Remote Associates Test for Large Language Models",TRUE,TRUE,Creative insight test,RAT test application,TRUE,Creative insight evaluation,0.78
+057,"Describe, Explain, Plan and Select: Interactive Planning with LLMs",TRUE,TRUE,Interactive planning framework,DEPS evaluation,TRUE,Interactive planning assessment,0.78
+058,"Conceptual Blending in Large Language Models",TRUE,TRUE,Creative integration evaluation,Blending metrics developed,TRUE,Conceptual creativity evaluation,0.78
+059,"TaskWeaver: A Code-First Agent Framework for Solving Complex Tasks",TRUE,TRUE,Complex task planning,Code-based planning evaluation,TRUE,Complex planning assessment,0.78
+060,"Imaginative Question Answering with Large Language Models",TRUE,TRUE,Imaginative reasoning,Counterfactual evaluation,TRUE,Imaginative creativity evaluation,0.78
+061,"Faith and Fate: Limits of Transformers on Compositionality",TRUE,TRUE,Reasoning limitations analysis,Compositional limits studied,TRUE,Reasoning limitation analysis,0.78
+062,"Design Thinking with Large Language Models",TRUE,TRUE,Design innovation principles,Design thinking evaluation,TRUE,Design innovation assessment,0.78
+063,"Generative Agents: Interactive Simulacra of Human Behavior",TRUE,TRUE,Autonomous planning agents,Social planning evaluation,TRUE,Autonomous planning evaluation,0.78
+064,"Evaluating Lateral Thinking in Large Language Models",TRUE,TRUE,Lateral thinking assessment,Puzzle-based evaluation,TRUE,Lateral thinking creativity,0.78
+065,"MetaGPT: Meta Programming for Multi-Agent Collaborative Framework",TRUE,TRUE,Multi-agent planning,Software development planning,TRUE,Multi-agent planning framework,0.78
+066,"Analogical Reasoning in Large Language Models",TRUE,TRUE,Analogical reasoning evaluation,Transfer assessment,TRUE,Analogical reasoning assessment,0.78
+067,"Reasoning with Language Model is Planning with World Model",TRUE,TRUE,Unified reasoning-planning,RAP framework evaluation,TRUE,Unified planning-reasoning,0.78
+068,"The Six Thinking Hats Applied to Large Language Models",TRUE,TRUE,Structured creative thinking,Six hats evaluation,TRUE,Structured creativity assessment,0.78
+069,"SwiftSage: A Generative Agent with Fast and Slow Thinking",TRUE,TRUE,Dual-process reasoning,System 1/2 evaluation,TRUE,Dual-process reasoning evaluation,0.78
+070,"Riddle Me This: Testing Problem-Solving Creativity in LLMs",TRUE,TRUE,Creative problem solving,Riddle-based evaluation,TRUE,Creative problem solving test,0.78
+071,"OpenAGI: When LLM Meets Domain Experts",TRUE,TRUE,Complex task planning,Expert orchestration,TRUE,Complex planning evaluation,0.78
+072,"Narrative Generation in Large Language Models: Story Coherence and Creativity",TRUE,TRUE,Narrative creativity,Story structure evaluation,TRUE,Narrative creativity assessment,0.78
+073,"Reflexion: Language Agents with Verbal Reinforcement Learning",TRUE,TRUE,Planning through reflection,Learning-based planning,TRUE,Reflection-based planning,0.78
+074,"SCAMPER Techniques for Creative Problem Solving with LLMs",TRUE,TRUE,Creative thinking methods,SCAMPER application,TRUE,Creative method evaluation,0.78
+075,"Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Generation",TRUE,TRUE,Reasoning enhancement,Note-based reasoning,TRUE,Reasoning enhancement method,0.78

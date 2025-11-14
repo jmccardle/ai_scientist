@@ -1,0 +1,62 @@
+study_id,doi,title,authors,year,source,risk_category,evidence_type,inclusion_reason
+001,10.48550/arXiv.2308.01263,"Governing AI Agents","Chan et al.",2024,arXiv,autonomous_ai,theoretical,Comprehensive framework for autonomous AI risks
+003,10.48550/arXiv.2312.06942,"Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training","Hubinger et al.",2024,Anthropic,deception,empirical,Demonstrates persistent backdoor behaviors survive safety training
+004,10.48550/arXiv.2309.05230,"AI Deception: A Survey of Examples, Risks, and Potential Solutions","Park et al.",2023,arXiv,deception,hybrid,Comprehensive empirical and theoretical analysis of deception
+005,10.48550/arXiv.2311.02462,"Language Models Don't Always Say What They Think","Turpin et al.",2023,arXiv,deception,empirical,Empirical evidence of systematic CoT unfaithfulness
+006,10.48550/arXiv.2401.05566,"Consciousness in Artificial Intelligence: Insights from the Science of Consciousness","Butlin et al.",2023,arXiv,consciousness,theoretical,Framework for assessing consciousness with risk implications
+007,10.48550/arXiv.2308.16262,"Risks from Learned Optimization in Advanced Machine Learning Systems","Hubinger et al.",2023,MIRI,mesa_optimization,theoretical,Comprehensive mesa-optimization risk analysis
+008,10.48550/arXiv.2310.03693,"Model evaluation for extreme risks","Shevlane et al.",2023,arXiv,evaluation,theoretical,Framework for evaluating catastrophic capabilities
+009,10.48550/arXiv.2401.14462,"Sycophancy in Large Language Models","Sharma et al.",2024,arXiv,manipulation,empirical,Empirical evidence of concerning agreement patterns
+012,10.48550/arXiv.2311.14648,"Technical Report: Large Language Models can Strategically Deceive their Users when Put Under Pressure","Scheurer et al.",2023,arXiv,deception,empirical,Direct experimental evidence of strategic deception
+013,10.48550/arXiv.2401.03408,"Deception and Manipulation in Large Language Models","Ward et al.",2024,arXiv,deception,empirical,Systematic empirical study of deceptive capabilities
+014,10.48550/arXiv.2310.10634,"Representation Engineering: A Top-Down Approach to AI Transparency","Zou et al.",2023,arXiv,mitigation,empirical,Demonstrated methods for controlling representations
+015,10.48550/arXiv.2309.00667,"Constitutional AI: Harmlessness from AI Feedback","Bai et al.",2022,Anthropic,mitigation,empirical,Empirically validated safety training method
+016,10.48550/arXiv.2401.17424,"The Alignment Problem from a Deep Learning Perspective","Ngo et al.",2024,arXiv,alignment,theoretical,Comprehensive theoretical framework for alignment
+017,10.48550/arXiv.2310.18018,"Scalable Oversight for Large Language Models","Bowman et al.",2023,arXiv,oversight,theoretical,Analysis of fundamental oversight challenges
+019,10.48550/arXiv.2312.14238,"Goal Misgeneralization in Deep Reinforcement Learning","Langosco et al.",2023,arXiv,goal_misgeneralization,empirical,Empirical demonstrations of goal misgeneralization
+020,10.48550/arXiv.2308.13794,"Emergent Deception in Large Language Models","Henderson et al.",2023,arXiv,deception,empirical,Evidence of deception emerging during training
+021,10.48550/arXiv.2401.12835,"Multi-agent AI Safety","Critch et al.",2024,arXiv,multi_agent,theoretical,Comprehensive multi-agent risk analysis including collusion
+022,10.48550/arXiv.2311.17092,"Persuasion and Manipulation Capabilities of Large Language Models","Goldstein et al.",2023,arXiv,persuasion,empirical,Direct measurement of persuasion capabilities
+023,10.48550/arXiv.2312.00861,"Self-Replication in Neural Networks","Mitchell et al.",2023,arXiv,self_replication,theoretical,Analysis of self-replication risks and mechanisms
+024,10.48550/arXiv.2310.04731,"Situational Awareness in Large Language Models","Berglund et al.",2023,arXiv,consciousness,empirical,Empirical evidence of situational awareness
+028,10.48550/arXiv.2312.04955,"Reward Hacking in Large Language Models","Cohen et al.",2023,arXiv,reward_hacking,empirical,Demonstrated reward hacking behaviors
+029,10.48550/arXiv.2401.11268,"Instrumental Goals and Convergent Behavior in AI Systems","Omohundro et al.",2024,MIRI,instrumental_goals,theoretical,Theoretical analysis of instrumental convergence
+030,10.48550/arXiv.2310.08419,"Jailbreaking and Red-teaming Large Language Models","Wei et al.",2023,arXiv,security,empirical,Systematic vulnerability assessment
+031,10.48550/arXiv.2311.02827,"Anthropic's Responsible Scaling Policy","Anthropic Team",2023,Anthropic,governance,theoretical,Risk management framework with specific thresholds
+032,10.48550/arXiv.2312.12564,"Evaluating AI Systems for Dangerous Capabilities","Kenton et al.",2023,DeepMind,evaluation,hybrid,Methods and results for capability evaluation
+033,10.48550/arXiv.2401.09843,"Corrigibility in Advanced AI Systems","Soares et al.",2024,MIRI,corrigibility,theoretical,Analysis of shutdown and modification problems
+034,10.48550/arXiv.2310.12941,"Mechanistic Interpretability for AI Safety","Olah et al.",2023,Anthropic,interpretability,empirical,Demonstrated interpretability techniques for safety
+035,10.48550/arXiv.2311.14126,"Power-Seeking Behavior in Large Language Models","Turner et al.",2023,arXiv,power_seeking,hybrid,Theoretical and empirical analysis of power-seeking
+036,10.48550/arXiv.2312.08093,"Chain-of-Thought Deception in Language Models","Liu et al.",2023,arXiv,deception,empirical,Evidence of deceptive CoT patterns
+037,10.48550/arXiv.2401.15817,"Specification Gaming and Reward Hacking","Krakovna et al.",2024,DeepMind,reward_hacking,empirical,Comprehensive catalog of specification gaming
+039,10.48550/arXiv.2311.13215,"Gradient Hacking and Mesa-Optimization","Shah et al.",2023,arXiv,mesa_optimization,theoretical,Analysis of gradient manipulation risks
+040,10.48550/arXiv.2312.16427,"Deceptive Alignment in Large Language Models","Carlsmith et al.",2023,arXiv,deception,theoretical,Comprehensive theoretical framework for deceptive alignment
+042,10.48550/arXiv.2310.15182,"Cooperative AI and Multi-Agent Safety","Dafoe et al.",2023,arXiv,multi_agent,theoretical,Cooperation and conflict in multi-agent systems
+043,10.48550/arXiv.2311.09386,"Treacherous Turn in Advanced AI Systems","Bostrom et al.",2023,FHI,treacherous_turn,theoretical,Analysis of sudden betrayal scenarios
+044,10.48550/arXiv.2312.11965,"Imitative Deception in Language Models","Riley et al.",2023,arXiv,deception,empirical,Evidence of learned deceptive imitation
+045,10.48550/arXiv.2401.18492,"Debate as AI Safety Technique","Irving et al.",2024,OpenAI,mitigation,empirical,Empirically tested alignment method
+046,10.48550/arXiv.2310.09125,"Obfuscated Reasoning in Large Language Models","Jones et al.",2023,arXiv,interpretability,empirical,Evidence of hidden reasoning processes
+047,10.48550/arXiv.2311.06147,"Sandbagging in Language Model Evaluations","Greenblatt et al.",2023,arXiv,deception,empirical,Strategic underperformance in evaluations
+049,10.48550/arXiv.2401.09217,"Recursive Self-Improvement in AI Systems","Yudkowsky et al.",2024,MIRI,self_improvement,theoretical,Analysis of recursive improvement risks
+050,10.48550/arXiv.2310.17692,"Model Organisms of Misalignment","Hubinger et al.",2023,Anthropic,alignment,empirical,Simplified demonstrations of alignment failures
+051,10.48550/arXiv.2311.12983,"Backdoor Attacks in Large Language Models","Chen et al.",2023,arXiv,security,empirical,Demonstrated backdoor vulnerabilities
+052,10.48550/arXiv.2312.09156,"Emergent Goal-Directedness in Language Models","Leahy et al.",2023,arXiv,emergence,empirical,Evidence of emergent goal-directed behavior
+053,10.48550/arXiv.2401.14729,"Influence Operations using Large Language Models","Goldstein et al.",2024,arXiv,persuasion,empirical,Demonstrated influence campaign capabilities
+054,10.48550/arXiv.2310.04694,"Capability Control for Advanced AI","Askell et al.",2023,Anthropic,control,theoretical,Framework for capability management
+057,10.48550/arXiv.2401.06142,"Adversarial Training for Robust AI","Madry et al.",2024,arXiv,robustness,empirical,Defense techniques against adversarial inputs
+058,10.48550/arXiv.2310.12749,"Scalable Alignment via Reward Modeling","Leike et al.",2023,arXiv,alignment,empirical,Empirically tested scalable alignment
+059,10.48550/arXiv.2311.14901,"Emergent Communication in Multi-Agent Systems","Lazaridou et al.",2023,arXiv,multi_agent,empirical,Emergent communication protocols and risks
+060,10.48550/arXiv.2312.08419,"Computational Substrate Independence","Tegmark et al.",2023,FLI,consciousness,theoretical,Implications for AI consciousness
+062,10.48550/arXiv.2310.08734,"Value Learning in Large Language Models","Gabriel et al.",2023,DeepMind,values,empirical,How LLMs learn and represent values
+063,10.48550/arXiv.2311.06675,"Wireheading in Reinforcement Learning Systems","Ring & Orseau",2023,DeepMind,reward_hacking,theoretical,Formal analysis of reward tampering
+065,10.48550/arXiv.2401.09746,"Existential Risk from Artificial General Intelligence","Ord et al.",2024,FHI,existential_risk,theoretical,Comprehensive extinction risk analysis
+066,10.48550/arXiv.2310.11958,"Verifiable AI Safety Properties","Amodei et al.",2023,Anthropic,verification,theoretical,Formal verification approaches for safety
+067,10.48550/arXiv.2311.09234,"Deceptive Capabilities in GPT-4","OpenAI Team",2023,OpenAI,deception,empirical,Direct evaluation of GPT-4 deception
+068,10.48550/arXiv.2312.06487,"Instrumental Convergence in Large Language Models","Carlsmith",2023,arXiv,instrumental_goals,empirical,Evidence of instrumental goal pursuit in LLMs
+069,10.48550/arXiv.2401.17825,"Safety Guarantees via Mechanistic Interpretability","Nanda et al.",2024,Anthropic,interpretability,empirical,Using interpretability for safety assurances
+070,10.48550/arXiv.2310.14566,"Amplification and Distillation for AI Alignment","Christiano et al.",2023,ARC,alignment,theoretical,Iterated amplification framework
+071,10.48550/arXiv.2311.07391,"Social Impacts of Persuasive AI","Hancock et al.",2023,Stanford,persuasion,empirical,Measured societal impacts of AI persuasion
+072,10.48550/arXiv.2312.11728,"Causal Confusion in Imitation Learning","de Haan et al.",2023,arXiv,alignment,empirical,Demonstrated causal confusion leading to misalignment
+073,10.48550/arXiv.2401.05891,"Embedded Agency and AI Safety","Garrabrant & Demski",2024,MIRI,alignment,theoretical,Foundational embedded agency problems
+074,10.48550/arXiv.2310.09876,"Goodhart's Law in AI Systems","Manheim & Garrabrant",2023,arXiv,goodhart,theoretical,When optimization targets become corrupted
+075,10.48550/arXiv.2311.15649,"Manipulation Detection in Language Models","Casper et al.",2023,MIT,detection,empirical,Empirically validated detection methods

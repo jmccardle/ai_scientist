@@ -1,0 +1,42 @@
+study_id,title,include,reason,reviewer
+S001,"MENTOR: Metacognition-Driven Self-Evolution Framework",TRUE,"Directly evaluates metacognitive self-assessment in LLMs",Reviewer_1
+S002,"Can LLMs Estimate Cognitive Complexity?",TRUE,"Empirical study on metacognitive awareness gap in LLMs",Reviewer_1
+S003,"Language Models Are Capable of Metacognitive Monitoring",TRUE,"Core paper quantifying metacognitive abilities in LLMs",Reviewer_1
+S004,"Language Models Coupled with Metacognition Outperform Reasoning Models",TRUE,"Empirical comparison of metacognitive vs reasoning approaches",Reviewer_1
+S005,"Metacognitive Reuse: Turning Recurring Reasoning into Behaviors",TRUE,"Novel metacognitive analysis mechanism in LLMs",Reviewer_1
+S006,"MetaFaith: Faithful Natural Language Uncertainty Expression",TRUE,"Metacognition-inspired approach to uncertainty calibration",Reviewer_1
+S007,"Metacognition and Uncertainty Communication in Humans and LLMs",TRUE,"Comprehensive overview comparing human and LLM metacognition",Reviewer_1
+S008,"MeLA: Metacognitive LLM-Driven Architecture",TRUE,"Framework for metacognitive performance analysis",Reviewer_1
+S009,"Metacognitive Self-Correction for Multi-Agent Systems",TRUE,"Real-time metacognitive error detection in LLMs",Reviewer_1
+S010,"ObjexMT: Objective Extraction and Metacognitive Calibration",TRUE,"Benchmark for metacognitive assessment",Reviewer_1
+S011,"Improving Metacognition and Uncertainty Communication",TRUE,"Direct study on improving metacognitive abilities",Reviewer_1
+S012,"Evaluating Fake Reasoning Bias in Language Models",TRUE,"Studies how fake reasoning affects metacognitive confidence",Reviewer_1
+S013,"If Pigs Could Fly: Counterfactual Reasoning in LLMs",TRUE,"Self-Segregate prompting for metacognitive awareness",Reviewer_1
+S014,"MetaMind: Modeling Human Social Thoughts",TRUE,"Metacognition-inspired framework for social reasoning",Reviewer_1
+S015,"Think Reflect Create: Metacognitive Learning for Robotic Planning",TRUE,"Metacognitive learning framework applicable to LLMs",Reviewer_1
+S016,"Cog-Rethinker: Hierarchical Metacognitive RL",TRUE,"Hierarchical metacognitive framework for reasoning",Reviewer_1
+S017,"Chain of Methodologies: Scaling Test Time Computation",TRUE,"Leverages metacognitive abilities of LLMs",Reviewer_1
+S018,"Cognitive Workspace: Active Memory Management",TRUE,"Emulates metacognitive awareness in memory management",Reviewer_1
+S019,"Path Drift in Large Reasoning Models",TRUE,"Metacognitive reflection as safety mechanism",Reviewer_1
+S020,"Why Distillation Can Outperform Zero-RL",TRUE,"Studies metacognitive awareness in distilled models",Reviewer_1
+S021,"Evaluating Long-Term Memory for Long-Context QA",TRUE,"Studies self-knowledge limits in LLMs",Reviewer_1
+S022,"Multi-faceted Analysis of Cognitive Abilities",TRUE,"Analyzes metacognitive reliability in medical LLMs",Reviewer_1
+S023,"Comprehension Without Competence",TRUE,"Theoretical analysis of metacognitive control needs",Reviewer_1
+S024,"Thinking About Thinking: SAGE-nano's Inverse Reasoning",TRUE,"Direct implementation of metacognitive structure",Reviewer_1
+S025,"Pangu Embedded: Efficient Dual-system LLM Reasoner",TRUE,"Dual-system with metacognitive capabilities",Reviewer_1
+S026,"Reflection Before Action Framework",FALSE,"Focus on user metacognition not LLM metacognition",Reviewer_1
+S027,"Skill-Targeted Adaptive Training",FALSE,"Educational application using LLM as teacher",Reviewer_1
+S028,"AdaptMI: Adaptive Skill-based In-context Math Instruction",FALSE,"Educational application not evaluating LLM metacognition",Reviewer_1
+S029,"The Imperfect Learner: Developmental Trajectories",FALSE,"Student simulation not LLM metacognition evaluation",Reviewer_1
+S030,"EduDial: Teacher-Student Dialogue Corpus",FALSE,"Educational corpus not metacognitive evaluation",Reviewer_1
+S031,"The Mechanical Yes-Man: Emancipatory AI Pedagogy",FALSE,"Pedagogical framework not empirical evaluation",Reviewer_1
+S032,"AgentBnB: Browser-Based Cybersecurity Training",FALSE,"Training system not metacognitive evaluation",Reviewer_1
+S033,"AI for Mentor-Novice Collaboration",FALSE,"Application study not core metacognition research",Reviewer_1
+S034,"Beyond Automation: Socratic AI and Multi-Agent Learning",FALSE,"Educational application not LLM metacognition",Reviewer_1
+S035,"HarmonyGuard: Safety and Utility in Web Agents",FALSE,"Web agent safety not core metacognition",Reviewer_1
+S036,"EduVisBench and EduVisAgent Framework",FALSE,"Visualization framework not metacognition evaluation",Reviewer_1
+S037,"Irec: Metacognitive Scaffolding for Self-Regulated Learning",FALSE,"Human learning support not LLM evaluation",Reviewer_1
+S038,"SRLAgent: Self-Regulated Learning through Gamification",FALSE,"Gamification system not LLM metacognition",Reviewer_1
+S039,"SSRLBot: Socially Shared Regulated Learning Agent",FALSE,"Educational bot not metacognitive evaluation",Reviewer_1
+S040,"Spatial Balancing in Science Communication",FALSE,"Communication system not LLM metacognition",Reviewer_1
+S041,"Probeable Problems in Introductory Programming",FALSE,"Programming education not LLM metacognition",Reviewer_1
