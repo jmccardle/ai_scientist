@@ -1,0 +1,90 @@
+study_id,title,authors,year,source,topic_area,doi_arxiv
+CAI001,"Constitutional AI: Harmlessness from AI Feedback","Bai et al.",2022,arXiv,Constitutional AI,2212.08073
+CAI002,"Specific versus General Principles for Constitutional AI","Kundu et al.",2023,arXiv,Constitutional AI,2310.13798
+CAI003,"Collective Constitutional AI: Aligning a Language Model with Public Input","Huang et al.",2024,arXiv,Constitutional AI,2406.07814
+RLHF001,"Deep reinforcement learning from human preferences","Christiano et al.",2017,arXiv,RLHF,1706.03741
+RLHF002,"Learning to summarize from human feedback","Stiennon et al.",2020,arXiv,RLHF,2009.01325
+RLHF003,"Training language models to follow instructions with human feedback","Ouyang et al.",2022,arXiv,RLHF,2203.02155
+RLHF004,"Training a helpful and harmless assistant with reinforcement learning from human feedback","Bai et al.",2022,arXiv,RLHF/Safety,2204.05862
+RLHF005,"WebGPT: Browser-assisted question-answering with human feedback","Nakano et al.",2021,arXiv,RLHF,2112.09332
+RLHF006,"AMaPO: Adaptive Margin-attached Preference Optimization for Language Model Alignment","Deng et al.",2025,arXiv,RLHF,2511.09385
+RLHF007,"Efficient Reinforcement Learning from Human Feedback via Bayesian Preference Inference","Cercola et al.",2025,arXiv,RLHF,2511.04286
+RLHF008,"RLHF: A comprehensive Survey for Cultural, Multimodal and Low Latency Alignment Methods","Sharma et al.",2025,arXiv,RLHF,2511.03939
+RLHF009,"What's In My Human Feedback?","Movva et al.",2025,arXiv,RLHF,2510.26202
+RLHF010,"Greedy Sampling Is Provably Efficient for RLHF","Wu et al.",2025,arXiv,RLHF,2510.24700
+RLHF011,"PaTaRM: Bridging Pairwise and Pointwise Signals","Jian et al.",2025,arXiv,RLHF,2510.24235
+RLHF012,"The Sign Estimator: LLM Alignment in the Face of Choice Heterogeneity","Aouad et al.",2025,arXiv,RLHF,2510.23965
+RLHF013,"Debiasing Reward Models by Representation Learning with Guarantees","Ng et al.",2025,arXiv,RLHF,2510.23751
+RLHF014,"Think Twice: Branch-and-Rethink Reasoning Reward Model","Jiao et al.",2025,arXiv,RLHF,2510.23596
+RLHF015,"Offline Preference Optimization via Maximum Marginal Likelihood Estimation","Najafi et al.",2025,arXiv,RLHF,2510.22881
+RLHF016,"Why DPO is a Misspecified Estimator and How to Fix It","Gopalan et al.",2025,arXiv,RLHF,2510.20413
+RLHF017,"Ask a Strong LLM Judge when Your Reward Model is Uncertain","Xu et al.",2025,arXiv,RLHF,2510.20369
+RLHF018,"Rectifying Shortcut Behaviors in Preference-based Reward Learning","Ye et al.",2025,arXiv,RLHF,2510.19050
+RLHF019,"Noise-corrected GRPO: From Noisy Rewards to Unbiased Gradients","El Mansouri et al.",2025,arXiv,RLHF,2510.18924
+RLHF020,"Towards Faithful and Controllable Personalization via Critique-Post-Edit RL","Zhu et al.",2025,arXiv,RLHF,2510.18849
+ALIGN001,"A general language assistant as a laboratory for alignment","Askell et al.",2021,arXiv,Alignment,2112.00861
+ALIGN002,"Improving alignment of dialogue agents via targeted human judgements","Glaese et al.",2022,arXiv,Alignment,2209.14375
+ALIGN003,"Moral Change or Noise? On Problems of Aligning AI With Temporally Unstable Human Feedback","Keswani et al.",2025,arXiv,Alignment,2511.10032
+ALIGN004,"Diverse Preference Learning for Capabilities and Alignment","Slocum et al.",2025,arXiv,Alignment,2511.08594
+ALIGN005,"DeepPersona: A Generative Engine for Scaling Deep Synthetic Personas","Wang et al.",2025,arXiv,Alignment,2511.07293
+ALIGN006,"Multi-Reward GRPO Fine-Tuning for De-biasing Large Language Models","Deng et al.",2025,arXiv,Alignment,2511.06023
+ALIGN007,"Towards Aligning Multimodal LLMs with Human Experts","Shi et al.",2025,arXiv,Alignment,2511.04366
+ALIGN008,"Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences","Ashkinaze et al.",2025,arXiv,Alignment,2511.02109
+ALIGN009,"LLMs Position Themselves as More Rational Than Humans","Kim et al.",2025,arXiv,Alignment,2511.00926
+ALIGN010,"A Unified Geometric Space Bridging AI Models and the Human Brain","Chen et al.",2025,arXiv,Alignment,2510.24342
+ALIGN011,"Learning 'Partner-Aware' Collaborators in Multi-Party Collaboration","Nath et al.",2025,arXiv,Alignment,2510.22462
+SAFETY001,"Red teaming language models to reduce harms","Ganguli et al.",2022,arXiv,Safety,2209.07858
+SAFETY002,"Red teaming language models with language models","Perez et al.",2022,arXiv,Safety,2202.03286
+SAFETY003,"AI safety via debate","Irving et al.",2018,arXiv,Safety,1805.00899
+SAFETY004,"Supervising strong learners by amplifying weak experts","Christiano et al.",2018,arXiv,Safety,1810.08575
+SAFETY005,"Measuring progress on scalable oversight for large language models","Bowman et al.",2022,arXiv,Safety,2211.03540
+SAFETY006,"Cost-Minimized Label-Flipping Poisoning Attack to LLM Alignment","Kusaka et al.",2025,arXiv,Safety,2511.09105
+SAFETY007,"The Polite Liar: Epistemic Pathology in Language Models","DeVilling et al.",2025,arXiv,Safety,2511.07477
+SAFETY008,"Verifying rich robustness properties for neural networks","Afzal et al.",2025,arXiv,Safety,2511.07293
+SAFETY009,"When Empowerment Disempowers","Yang et al.",2025,arXiv,Safety,2511.04177
+SAFETY010,"Reimagining Safety Alignment with An Image","Xia et al.",2025,arXiv,Safety,2511.00509
+SAFETY011,"Instrumental goals in advanced AI systems","Fourie et al.",2025,arXiv,Safety,2510.25471
+SAFETY012,"The Epistemic Suite: A Post-Foundational Diagnostic Methodology","Kelly et al.",2025,arXiv,Safety,2510.24721
+SAFETY013,"A Self-Improving Architecture for Dynamic Safety in Large Language Models","Slater et al.",2025,arXiv,Safety,2511.07645
+SAFETY014,"Speech-Audio Compositional Attacks on Multimodal LLMs and Their Mitigation with SALMONN-Guard","Yang et al.",2025,arXiv,Safety,2511.10222
+COT001,"Show your work: Scratchpads for intermediate computation with language models","Nye et al.",2021,arXiv,Chain-of-Thought,2112.00114
+COT002,"Chain of thought prompting elicits reasoning in large language models","Wei et al.",2022,arXiv,Chain-of-Thought,2201.11903
+COT003,"Large language models are zero-shot reasoners","Kojima et al.",2022,arXiv,Chain-of-Thought,2205.11916
+COT004,"STaR: Self-taught reasoner","Zelikman et al.",2022,arXiv,Chain-of-Thought,2203.14465
+COT005,"Enhancing the Outcome Reward-based RL Training of MLLMs with Self-Consistency Sampling","Wang et al.",2025,arXiv,Chain-of-Thought,2511.10648
+COT006,"ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference","Liang et al.",2025,arXiv,Chain-of-Thought,2511.10645
+COT007,"EffiReason-Bench: A Unified Benchmark for Evaluating and Advancing Efficient Reasoning in Large Language Models","Huang et al.",2025,arXiv,Chain-of-Thought,2511.10201
+COT008,"In-Token Rationality Optimization: Towards Accurate and Concise LLM Reasoning via Self-Feedback","Zhu et al.",2025,arXiv,Chain-of-Thought,2511.09865
+COT009,"Investigating CoT Monitorability in Large Reasoning Models","Yang et al.",2025,arXiv,Chain-of-Thought,2511.08525
+COT010,"DPRM: A Dual Implicit Process Reward Model in Multi-Hop Question Answering","Wang et al.",2025,arXiv,Chain-of-Thought,2511.08364
+COT011,"Benchmarking Multi-Step Legal Reasoning and Analyzing Chain-of-Thought Effects in Large Language Models","Yu et al.",2025,arXiv,Chain-of-Thought,2511.07979
+COT012,"SALT: Steering Activations towards Leakage-free Thinking in Chain of Thought","Batra et al.",2025,arXiv,Chain-of-Thought,2511.07772
+COT013,"Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization","Huang et al.",2025,arXiv,Chain-of-Thought,2511.07378
+COT014,"Provable Benefit of Curriculum in Transformer Tree-Reasoning Post-Training","Bu et al.",2025,arXiv,Chain-of-Thought,2511.07372
+COT015,"Consistency Is Not Always Correct: Towards Understanding the Role of Exploration in Post-Training Reasoning","Bu et al.",2025,arXiv,Chain-of-Thought,2511.07368
+SELF001,"Self-critiquing models for assisting human evaluators","Saunders et al.",2022,arXiv,Self-Critique,2206.05802
+SELF002,"Training language models with language feedback","Scheurer et al.",2022,arXiv,Self-Critique,2204.14146
+SELF003,"Self-refine: Iterative refinement with self-feedback","Madaan et al.",2023,arXiv,Self-Critique,2303.17651
+SELF004,"Large language models can self-improve","Huang et al.",2022,arXiv,Self-Improvement,2210.11610
+SELF005,"SERL: Self-Examining Reinforcement Learning on Open-Domain","Ou et al.",2025,arXiv,Self-Improvement,2511.07922
+SELF006,"Coherence Mechanisms for Provable Self-Improvement","Mohri et al.",2025,arXiv,Self-Improvement,2511.08440
+SELF007,"MM-CRITIC: A Holistic Evaluation of Large Multimodal Models as Multimodal Critique","Zeng et al.",2025,arXiv,Self-Critique,2511.09067
+SCALE001,"Scalable agent alignment via reward modeling","Leike et al.",2018,arXiv,Scaling,1811.07871
+SCALE002,"Scaling laws for reward model overoptimization","Gao et al.",2022,arXiv,Scaling,2210.10760
+SCALE003,"Scaling language models: Methods, analysis & insights from training Gopher","Rae et al.",2021,arXiv,Scaling,2112.11446
+SCALE004,"Training compute-optimal large language models","Hoffmann et al.",2022,arXiv,Scaling,2203.15556
+EVAL001,"Language models (mostly) know what they know","Kadavath et al.",2022,arXiv,Evaluation,2207.05221
+EVAL002,"Beyond the imitation game: Quantifying and extrapolating the capabilities of language models","Srivastava et al.",2022,arXiv,Evaluation,2206.04615
+EVAL003,"LaMDA: Language models for dialog applications","Thoppilan et al.",2022,arXiv,Evaluation,2201.08239
+EVAL004,"GPT-4 technical report","OpenAI",2023,arXiv,Evaluation,2303.08774
+EVAL005,"Towards monosemanticity","Anthropic",2023,Blog,Interpretability,anthropic.com
+EVAL006,"Core views on AI safety","Anthropic",2023,Blog,Safety,anthropic.com
+EVAL007,"Unsolved problems in ML safety","Hendrycks et al.",2021,arXiv,Safety,2109.13916
+EVAL008,"Ethical and social risks of harm from language models","Weidinger et al.",2021,arXiv,Safety,2112.04359
+EVAL009,"On the opportunities and risks of foundation models","Bommasani et al.",2021,arXiv,Foundation Models,2108.07258
+MISC001,"Mastering the game of Go without human knowledge","Silver et al.",2017,Nature,Self-Play,nature.com
+MISC002,"Mastering Atari, Go, chess and shogi by planning with a learned model","Schrittwieser et al.",2020,Nature,Self-Play,nature.com
+MISC003,"Direct preference optimization","Rafailov et al.",2023,arXiv,Preference Learning,2305.18290
+MISC004,"Weak-to-strong generalization","Burns et al.",2023,arXiv,Generalization,2312.09390
+MISC005,"Calibrate before use: Improving few-shot performance of language models","Zhao et al.",2021,arXiv,Calibration,2102.09690
+MISC006,"Towards Measuring the Representation of Subjective Global Opinions in Language Models","Durmus et al.",2023,arXiv,Representation,2306.16388

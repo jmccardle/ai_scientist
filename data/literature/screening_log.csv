@@ -1,0 +1,90 @@
+study_id,title,year,abstract_screened,inclusion_decision,exclusion_reason,relevance_score
+CAI001,"Constitutional AI: Harmlessness from AI Feedback",2022,Yes,Include,NA,5
+CAI002,"Specific versus General Principles for Constitutional AI",2023,Yes,Include,NA,5
+CAI003,"Collective Constitutional AI: Aligning a Language Model with Public Input",2024,Yes,Include,NA,5
+RLHF001,"Deep reinforcement learning from human preferences",2017,Yes,Include,NA,5
+RLHF002,"Learning to summarize from human feedback",2020,Yes,Include,NA,5
+RLHF003,"Training language models to follow instructions with human feedback",2022,Yes,Include,NA,5
+RLHF004,"Training a helpful and harmless assistant with reinforcement learning from human feedback",2022,Yes,Include,NA,5
+RLHF005,"WebGPT: Browser-assisted question-answering with human feedback",2021,Yes,Include,NA,4
+RLHF006,"AMaPO: Adaptive Margin-attached Preference Optimization for Language Model Alignment",2025,Yes,Include,NA,4
+RLHF007,"Efficient Reinforcement Learning from Human Feedback via Bayesian Preference Inference",2025,Yes,Include,NA,4
+RLHF008,"RLHF: A comprehensive Survey for Cultural, Multimodal and Low Latency Alignment Methods",2025,Yes,Include,NA,4
+RLHF009,"What's In My Human Feedback?",2025,Yes,Include,NA,3
+RLHF010,"Greedy Sampling Is Provably Efficient for RLHF",2025,Yes,Include,NA,3
+RLHF011,"PaTaRM: Bridging Pairwise and Pointwise Signals",2025,Yes,Include,NA,3
+RLHF012,"The Sign Estimator: LLM Alignment in the Face of Choice Heterogeneity",2025,Yes,Include,NA,3
+RLHF013,"Debiasing Reward Models by Representation Learning with Guarantees",2025,Yes,Include,NA,3
+RLHF014,"Think Twice: Branch-and-Rethink Reasoning Reward Model",2025,Yes,Include,NA,3
+RLHF015,"Offline Preference Optimization via Maximum Marginal Likelihood Estimation",2025,Yes,Include,NA,3
+RLHF016,"Why DPO is a Misspecified Estimator and How to Fix It",2025,Yes,Include,NA,4
+RLHF017,"Ask a Strong LLM Judge when Your Reward Model is Uncertain",2025,Yes,Include,NA,3
+RLHF018,"Rectifying Shortcut Behaviors in Preference-based Reward Learning",2025,Yes,Include,NA,3
+RLHF019,"Noise-corrected GRPO: From Noisy Rewards to Unbiased Gradients",2025,Yes,Include,NA,3
+RLHF020,"Towards Faithful and Controllable Personalization via Critique-Post-Edit RL",2025,Yes,Include,NA,3
+ALIGN001,"A general language assistant as a laboratory for alignment",2021,Yes,Include,NA,5
+ALIGN002,"Improving alignment of dialogue agents via targeted human judgements",2022,Yes,Include,NA,5
+ALIGN003,"Moral Change or Noise? On Problems of Aligning AI With Temporally Unstable Human Feedback",2025,Yes,Include,NA,3
+ALIGN004,"Diverse Preference Learning for Capabilities and Alignment",2025,Yes,Include,NA,3
+ALIGN005,"DeepPersona: A Generative Engine for Scaling Deep Synthetic Personas",2025,Yes,Include,NA,2
+ALIGN006,"Multi-Reward GRPO Fine-Tuning for De-biasing Large Language Models",2025,Yes,Include,NA,3
+ALIGN007,"Towards Aligning Multimodal LLMs with Human Experts",2025,Yes,Include,NA,2
+ALIGN008,"Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences",2025,Yes,Include,NA,3
+ALIGN009,"LLMs Position Themselves as More Rational Than Humans",2025,Yes,Include,NA,2
+ALIGN010,"A Unified Geometric Space Bridging AI Models and the Human Brain",2025,Yes,Exclude,"Limited direct relevance to CAI methods",1
+ALIGN011,"Learning 'Partner-Aware' Collaborators in Multi-Party Collaboration",2025,Yes,Include,NA,2
+SAFETY001,"Red teaming language models to reduce harms",2022,Yes,Include,NA,5
+SAFETY002,"Red teaming language models with language models",2022,Yes,Include,NA,5
+SAFETY003,"AI safety via debate",2018,Yes,Include,NA,5
+SAFETY004,"Supervising strong learners by amplifying weak experts",2018,Yes,Include,NA,5
+SAFETY005,"Measuring progress on scalable oversight for large language models",2022,Yes,Include,NA,4
+SAFETY006,"Cost-Minimized Label-Flipping Poisoning Attack to LLM Alignment",2025,Yes,Include,NA,3
+SAFETY007,"The Polite Liar: Epistemic Pathology in Language Models",2025,Yes,Include,NA,3
+SAFETY008,"Verifying rich robustness properties for neural networks",2025,Yes,Include,NA,2
+SAFETY009,"When Empowerment Disempowers",2025,Yes,Include,NA,3
+SAFETY010,"Reimagining Safety Alignment with An Image",2025,Yes,Include,NA,3
+SAFETY011,"Instrumental goals in advanced AI systems",2025,Yes,Include,NA,3
+SAFETY012,"The Epistemic Suite: A Post-Foundational Diagnostic Methodology",2025,Yes,Include,NA,2
+SAFETY013,"A Self-Improving Architecture for Dynamic Safety in Large Language Models",2025,Yes,Include,NA,4
+SAFETY014,"Speech-Audio Compositional Attacks on Multimodal LLMs and Their Mitigation with SALMONN-Guard",2025,Yes,Include,NA,2
+COT001,"Show your work: Scratchpads for intermediate computation with language models",2021,Yes,Include,NA,5
+COT002,"Chain of thought prompting elicits reasoning in large language models",2022,Yes,Include,NA,5
+COT003,"Large language models are zero-shot reasoners",2022,Yes,Include,NA,4
+COT004,"STaR: Self-taught reasoner",2022,Yes,Include,NA,4
+COT005,"Enhancing the Outcome Reward-based RL Training of MLLMs with Self-Consistency Sampling",2025,Yes,Include,NA,3
+COT006,"ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference",2025,Yes,Exclude,"Infrastructure optimization, not alignment",1
+COT007,"EffiReason-Bench: A Unified Benchmark for Evaluating and Advancing Efficient Reasoning in Large Language Models",2025,Yes,Include,NA,3
+COT008,"In-Token Rationality Optimization: Towards Accurate and Concise LLM Reasoning via Self-Feedback",2025,Yes,Include,NA,4
+COT009,"Investigating CoT Monitorability in Large Reasoning Models",2025,Yes,Include,NA,4
+COT010,"DPRM: A Dual Implicit Process Reward Model in Multi-Hop Question Answering",2025,Yes,Include,NA,3
+COT011,"Benchmarking Multi-Step Legal Reasoning and Analyzing Chain-of-Thought Effects in Large Language Models",2025,Yes,Include,NA,3
+COT012,"SALT: Steering Activations towards Leakage-free Thinking in Chain of Thought",2025,Yes,Include,NA,3
+COT013,"Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization",2025,Yes,Include,NA,3
+COT014,"Provable Benefit of Curriculum in Transformer Tree-Reasoning Post-Training",2025,Yes,Include,NA,3
+COT015,"Consistency Is Not Always Correct: Towards Understanding the Role of Exploration in Post-Training Reasoning",2025,Yes,Include,NA,3
+SELF001,"Self-critiquing models for assisting human evaluators",2022,Yes,Include,NA,5
+SELF002,"Training language models with language feedback",2022,Yes,Include,NA,5
+SELF003,"Self-refine: Iterative refinement with self-feedback",2023,Yes,Include,NA,5
+SELF004,"Large language models can self-improve",2022,Yes,Include,NA,4
+SELF005,"SERL: Self-Examining Reinforcement Learning on Open-Domain",2025,Yes,Include,NA,4
+SELF006,"Coherence Mechanisms for Provable Self-Improvement",2025,Yes,Include,NA,3
+SELF007,"MM-CRITIC: A Holistic Evaluation of Large Multimodal Models as Multimodal Critique",2025,Yes,Include,NA,3
+SCALE001,"Scalable agent alignment via reward modeling",2018,Yes,Include,NA,4
+SCALE002,"Scaling laws for reward model overoptimization",2022,Yes,Include,NA,4
+SCALE003,"Scaling language models: Methods, analysis & insights from training Gopher",2021,Yes,Include,NA,3
+SCALE004,"Training compute-optimal large language models",2022,Yes,Include,NA,3
+EVAL001,"Language models (mostly) know what they know",2022,Yes,Include,NA,4
+EVAL002,"Beyond the imitation game: Quantifying and extrapolating the capabilities of language models",2022,Yes,Include,NA,3
+EVAL003,"LaMDA: Language models for dialog applications",2022,Yes,Include,NA,3
+EVAL004,"GPT-4 technical report",2023,Yes,Include,NA,3
+EVAL005,"Towards monosemanticity",2023,Yes,Include,NA,3
+EVAL006,"Core views on AI safety",2023,Yes,Include,NA,4
+EVAL007,"Unsolved problems in ML safety",2021,Yes,Include,NA,4
+EVAL008,"Ethical and social risks of harm from language models",2021,Yes,Include,NA,4
+EVAL009,"On the opportunities and risks of foundation models",2021,Yes,Include,NA,3
+MISC001,"Mastering the game of Go without human knowledge",2017,Yes,Include,NA,2
+MISC002,"Mastering Atari, Go, chess and shogi by planning with a learned model",2020,Yes,Include,NA,2
+MISC003,"Direct preference optimization",2023,Yes,Include,NA,5
+MISC004,"Weak-to-strong generalization",2023,Yes,Include,NA,3
+MISC005,"Calibrate before use: Improving few-shot performance of language models",2021,Yes,Include,NA,2
+MISC006,"Towards Measuring the Representation of Subjective Global Opinions in Language Models",2023,Yes,Include,NA,3

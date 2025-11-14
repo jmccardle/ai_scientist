@@ -1,0 +1,73 @@
+# Data Extraction Template for Constitutional AI Literature Review
+
+extraction_schema:
+  study_identification:
+    study_id: ""  # Unique identifier
+    citation:
+      authors: []  # List of all authors
+      year: null
+      title: ""
+      venue: ""  # Journal/Conference
+      doi: ""
+      arxiv_id: ""
+      url: ""
+
+  study_characteristics:
+    paper_type: ""  # empirical/theoretical/methodological/review
+    research_domain: ""  # RLHF/alignment/safety/evaluation
+    ai_system_type: ""  # language_model/rl_agent/other
+
+  key_contributions:
+    main_contribution: ""  # Primary innovation/finding
+    methodology: ""  # Approach used
+    theoretical_framework: ""  # If applicable
+
+  relevance_to_constitutional_ai:
+    direct_citation: false  # Cited in Constitutional AI paper
+    topic_areas:  # Check all that apply
+      - rlhf: false
+      - rlaif: false
+      - ai_alignment: false
+      - ai_safety: false
+      - chain_of_thought: false
+      - self_critique: false
+      - red_teaming: false
+      - scalable_oversight: false
+      - preference_learning: false
+      - harmlessness: false
+
+  technical_details:
+    model_architecture: ""  # GPT/BERT/custom
+    model_size: ""  # Parameters if reported
+    training_approach: ""  # supervised/RL/hybrid
+    dataset: ""  # Training/evaluation data
+    evaluation_metrics: []  # List of metrics used
+    human_evaluation: false  # Whether human eval conducted
+
+  findings:
+    primary_results: ""  # Main empirical findings
+    performance_metrics: {}  # Dict of metric: value
+    limitations_noted: ""  # Author-stated limitations
+
+  alignment_safety_aspects:
+    safety_mechanisms: ""  # What safety features implemented
+    harmfulness_reduction: ""  # How harm is reduced
+    alignment_approach: ""  # How alignment achieved
+    oversight_method: ""  # Human/AI/hybrid oversight
+
+  relationship_to_other_work:
+    builds_upon: []  # Papers this extends
+    compared_to: []  # Papers compared in evaluation
+    influenced_by: []  # Theoretical influences
+
+  quality_assessment:
+    empirical_rigor: ""  # low/moderate/high
+    theoretical_contribution: ""  # low/moderate/high
+    reproducibility: ""  # low/moderate/high
+    code_available: false
+    data_available: false
+
+  quotes_and_notes:
+    key_quotes: []  # Important verbatim quotes
+    reviewer_notes: ""  # Additional observations
+    relevance_score: null  # 1-5 scale for Constitutional AI relevance
