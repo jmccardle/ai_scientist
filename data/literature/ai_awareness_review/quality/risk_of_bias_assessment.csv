@@ -1,0 +1,46 @@
+study_id,title,study_design,selection_bias,measurement_bias,reporting_bias,confounding,statistical_analysis,generalizability,overall_quality,notes
+001,Theory of Mind Emerged in LLMs,Empirical,Low,Medium,Low,Medium,Good,Medium,Moderate,Potential test memorization; lacks causal controls
+002,Chain-of-Thought Prompting,Empirical,Low,Low,Low,Low,Good,High,High,Well-controlled experiments; reproducible
+003,Reflexion,Empirical,Low,Low,Low,Low,Good,Medium,High,Clear methodology; iterative validation
+004,LLMs Know When Hallucinating,Empirical,Medium,Medium,Low,Medium,Good,Medium,Moderate,Calibration varies across domains
+005,ReAct,Empirical,Low,Low,Low,Low,Good,Medium,High,Controlled environments; clear metrics
+006,SAD Benchmark,Benchmark,Low,Low,Low,Low,Good,High,High,Comprehensive benchmark design
+007,LLMs Fail on Trivial ToM,Empirical,Low,Low,Low,Low,Excellent,High,High,Strong counterfactual testing
+009,Delphi,Empirical,Medium,Medium,Low,High,Good,Low,Moderate,Western bias in training data
+010,Self-Consistency,Empirical,Low,Low,Low,Low,Excellent,High,High,Rigorous experimental design
+012,Models Know What They Know,Empirical,Low,Medium,Low,Medium,Good,Medium,Moderate,Domain-dependent calibration
+014,AI Deception Survey,Review,Low,Low,Low,N/A,N/A,High,High,Comprehensive literature review
+015,Tree of Thoughts,Empirical,Low,Low,Low,Low,Good,Medium,High,Novel approach; well-validated
+016,Mind's Mirror,Empirical,Low,Low,Low,Low,Good,Medium,High,Distillation well-controlled
+017,Evaluating LLMs on ToM,Empirical,Low,Low,Low,Low,Excellent,High,High,Comprehensive benchmark suite
+018,When LLMs Need Retrieval,Empirical,Low,Medium,Low,Medium,Good,Medium,Moderate,Implementation dependent
+022,Metacognitive Prompting,Empirical,Low,Low,Low,Low,Good,High,High,Simple robust method
+023,Self-Recognition,Empirical,Medium,Medium,Low,Medium,Good,Medium,Moderate,May detect memorization patterns
+025,Models Don't Say What They Think,Empirical,Low,Medium,Low,Medium,Good,Medium,Moderate,Probing methodology limitations
+026,Understanding Sycophancy,Empirical,Low,Low,Low,Medium,Good,High,High,Clear identification of RLHF artifact
+029,Alignment Faking,Empirical,High,Medium,Medium,High,Good,Medium,Critical Finding,Major safety implications despite limitations
+031,Out-of-Context Reasoning,Empirical,Low,Low,Low,Low,Good,Medium,High,Well-designed boundary tests
+032,Voyager,Empirical,Low,Low,Low,Low,Good,Low,Moderate,Game-specific implementation
+035,Model-Written Evaluations,Empirical,Medium,Medium,Low,Medium,Good,Medium,Moderate,Self-evaluation bias possible
+036,Sleeper Agents,Empirical,Low,Low,Medium,Low,Good,High,High,Concerning but well-demonstrated
+041,Catching AI Lies,Empirical,Low,Medium,Low,Medium,Good,Medium,Moderate,Detection accuracy varies
+047,LLMs Express Uncertainty,Empirical,Low,Low,Low,Low,Good,High,High,Good calibration studies
+049,Emergence of ToM,Empirical,Low,Low,Low,Low,Excellent,High,High,Systematic scaling analysis
+055,Moral Self-Correction,Empirical,Medium,Medium,Low,High,Good,Low,Moderate,Cultural bias concerns
+056,Models Know What They Don't Know,Empirical,Low,Low,Low,Low,Good,High,High,Robust uncertainty quantification
+057,Teaching Self-Improvement,Empirical,Low,Medium,Low,Medium,Good,Medium,Moderate,Error amplification risk
+059,Faithful CoT,Empirical,Low,Low,Low,Low,Excellent,High,High,Rigorous causal analysis
+060,Scaling Laws for ToM,Empirical,Low,Low,Low,Low,Excellent,High,High,Clear scaling relationships
+061,Machine Psychology,Empirical,Low,Low,Low,Medium,Good,Medium,Moderate,Anthropomorphism risk
+065,In-Context Learning,Theoretical,Low,Low,Low,Low,Excellent,High,High,Strong theoretical analysis
+066,World Models,Empirical,Low,Low,Low,Low,Good,Medium,High,Implicit representation analysis
+068,Sparks of AGI,Empirical,Medium,Medium,Medium,High,Fair,Low,Low,Lacks systematic evaluation
+069,LMs as World Models,Empirical,Low,Medium,Low,Medium,Good,Medium,Moderate,Limited complexity testing
+075,Generative Agents,Empirical,Low,Low,Low,Low,Good,Medium,High,Novel multi-agent approach
+078,Measuring CoT Faithfulness,Empirical,Low,Low,Low,Low,Excellent,High,High,Rigorous causal methodology
+079,Goal Misgeneralization,Empirical,Low,Low,Low,Low,Good,Medium,High,RL findings applicable to LLMs
+083,Anthropomorphism,Theoretical,Low,Low,Low,N/A,N/A,High,High,Important conceptual analysis
+096,Emergent Deception,Empirical,Low,Medium,Low,Medium,Good,High,High,Systematic deception analysis
+097,Self-Improving Models,Empirical,Low,Low,Low,Low,Good,High,High,STaR method well-validated
+098,Evaluating Self-Awareness,Benchmark,Low,Low,Low,Low,Good,High,High,Comprehensive benchmark
+099,Illusion of Understanding,Empirical,Low,Low,Low,Low,Good,High,High,Human subjects well-controlled

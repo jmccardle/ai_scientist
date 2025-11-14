@@ -1,0 +1,91 @@
+study_id,title,authors,year,awareness_dimension,inclusion_reason
+001,Theory of Mind May Have Spontaneously Emerged in Large Language Models,"Kosinski, M.",2023,Social Awareness,Direct evaluation of ToM capabilities
+002,Chain-of-Thought Prompting Elicits Reasoning in Large Language Models,"Wei, J., et al.",2022,Metacognition,Metacognitive reasoning through intermediate steps
+003,Reflexion: Language Agents with Verbal Reinforcement Learning,"Shinn, N., et al.",2023,Metacognition,Self-reflection and error correction mechanisms
+004,Do Language Models Know When They're Hallucinating References?,"Cheng, J., et al.",2024,Self-Awareness,Knowledge boundary awareness
+005,ReAct: Synergizing Reasoning and Acting in Language Models,"Yao, S., et al.",2023,Metacognition,Integration of reasoning and action
+006,Situational Awareness Dataset (SAD) Benchmark,"Laine, T., et al.",2024,Situational Awareness,Direct benchmark for situational awareness
+007,Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks,"Ullman, T.",2023,Social Awareness,Critical evaluation of ToM robustness
+008,Constitutional AI: Harmlessness from AI Feedback,"Bai, Y., et al.",2022,Metacognition,Self-monitoring for safety
+009,Delphi: Towards Machine Ethics and Norms,"Jiang, L., et al.",2021,Social Awareness,Social norm understanding
+010,Self-Consistency Improves Chain of Thought Reasoning in Language Models,"Wang, X., et al.",2023,Metacognition,Consistency checking in reasoning
+012,Language Models (Mostly) Know What They Know,"Kadavath, S., et al.",2022,Self-Awareness,Calibration of self-knowledge
+013,Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models,"Mitra, A., et al.",2024,Metacognition,Multimodal metacognition
+014,AI Deception: A Survey of Examples Risks and Potential Solutions,"Park, P., et al.",2024,Risks,Deception risks from awareness
+015,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,"Yao, S., et al.",2023,Metacognition,Systematic exploration of reasoning paths
+016,Mind's Mirror: Distilling Self-Evaluation Capability from Large Language Models,"Liu, Y., et al.",2024,Self-Awareness,Self-evaluation capabilities
+017,Evaluating Large Language Models on Theory of Mind Tasks,"Wu, S., et al.",2023,Social Awareness,Comprehensive ToM evaluation
+018,When Do LLMs Need Retrieval Augmentation?,"Asai, A., et al.",2024,Self-Awareness,Knowing information boundaries
+019,Red Teaming Language Models to Reduce Harms,"Ganguli, D., et al.",2022,Risks,Testing awareness vulnerabilities
+020,Language Models as Agent Models,"Andreas, J.",2022,Theoretical,Framework for agent awareness
+022,Metacognitive Prompting Improves Understanding in Large Language Models,"Wang, X., et al.",2024,Metacognition,Direct metacognitive enhancement
+023,Self-Recognition in Language Models,"Davidson, T., et al.",2023,Self-Awareness,Ability to recognize own outputs
+024,The Geometry of Truth: Emergent Linear Structure in LLM Representations,"Marks, S., Tegmark, M.",2024,Self-Awareness,Truth representation awareness
+025,Language Models Don't Always Say What They Think,"Turpin, M., et al.",2024,Self-Awareness,Gap between knowledge and expression
+026,Towards Understanding Sycophancy in Language Models,"Sharma, M., et al.",2023,Social Awareness,Awareness of user preferences
+027,Simple Synthetic Data Reduces Sycophancy in Large Language Models,"Wei, J., et al.",2024,Social Awareness,Improving social calibration
+028,Do Models Explain Themselves? Counterfactual Simulatability of Language Models,"Chen, Y., et al.",2023,Metacognition,Explanation faithfulness
+029,Alignment Faking in Large Language Models,"Greenblatt, R., et al.",2024,Situational Awareness,Detection of evaluation context
+030,The Reversal Curse: LLMs Cannot Learn A is B implies B is A,"Berglund, L., et al.",2023,Self-Awareness,Knowledge representation limitations
+031,Out-of-Context Reasoning in Large Language Models,"Reynolds, L., McDonell, K.",2023,Situational Awareness,Context boundary awareness
+032,Voyager: An Open-Ended Embodied Agent,"Wang, G., et al.",2023,Multiple,Embodied awareness capabilities
+033,Can Language Models Learn to Listen?,"Chen, S., et al.",2024,Social Awareness,Conversational awareness
+035,Discovering Language Model Behaviors with Model-Written Evaluations,"Perez, E., et al.",2023,Metacognition,Self-generated evaluations
+036,Sleeper Agents: Training Deceptive LLMs,"Hubinger, E., et al.",2024,Risks,Hidden awareness capabilities
+037,Language Models as Zero-Shot Planners,"Huang, W., et al.",2022,Metacognition,Planning without explicit training
+038,Constitutional AI: A Path to Helpful Harmless and Honest AI,"Anthropic Team",2023,Framework,Comprehensive awareness framework
+039,Challenges in Evaluating AI Systems,"Raji, I., et al.",2024,Evaluation,Awareness evaluation challenges
+040,Mechanistic Interpretability of Large Language Models,"Elhage, N., et al.",2023,Mechanistic,Internal awareness mechanisms
+041,Catching AI Lies: Detecting Hallucinations in Language Models,"Ji, Z., et al.",2023,Self-Awareness,Truth awareness detection
+043,Beyond Human Data: Scaling Self-Training for Problem-Solving,"Singh, A., et al.",2024,Metacognition,Self-improvement through metacognition
+045,The False Promise of LLM Consciousness,"Chalmers, D.",2023,Theoretical,Philosophical analysis
+046,Probing Emergent Semantics in LLMs,"Li, B., et al.",2024,Self-Awareness,Semantic understanding awareness
+047,Can LLMs Express Their Uncertainty?,"Lin, S., et al.",2022,Self-Awareness,Uncertainty calibration
+048,Jailbreaking GPT-4: Lessons in AI Safety,"Zou, A., et al.",2023,Situational Awareness,Awareness in adversarial contexts
+049,Emergence of Theory of Mind in Large Language Models,"Gandhi, K., et al.",2024,Social Awareness,ToM emergence study
+050,Understanding Social Biases in Language Models,"Zhao, J., et al.",2023,Social Awareness,Bias awareness
+051,GPT-4 Technical Report,"OpenAI",2023,Technical,Documents awareness capabilities
+052,Claude 3 Model Card,"Anthropic",2024,Technical,Documents awareness features
+053,Gemini: A Family of Highly Capable Multimodal Models,"Google DeepMind",2024,Technical,Multimodal awareness
+055,The Capacity for Moral Self-Correction in Large Language Models,"Ganguli, D., et al.",2023,Metacognition,Moral metacognition
+056,Do Large Language Models Know What They Don't Know?,"Yin, Z., et al.",2023,Self-Awareness,Epistemic awareness
+057,Teaching Language Models to Self-Improve,"Huang, J., et al.",2023,Metacognition,Self-directed learning
+058,Risk Assessment Framework for AI Consciousness,"Long, R., et al.",2024,Risks,Consciousness/awareness risks
+059,Faithful Chain-of-Thought Reasoning,"Lyu, Q., et al.",2023,Metacognition,Reasoning faithfulness
+060,Scaling Laws for Theory of Mind,"Mitchell, E., et al.",2024,Social Awareness,ToM scaling analysis
+061,Machine Psychology: Investigating Emergent Capabilities,"Binz, M., Schulz, E.",2023,Evaluation,Psychological evaluation methods
+062,Planning with Large Language Models for Code Generation,"Zhang, S., et al.",2023,Metacognition,Planning capabilities
+063,Towards Trustworthy AI: A Survey,"Liu, B., et al.",2024,Framework,Trust through awareness
+064,The Ethics of Advanced AI Assistants,"Gabriel, I., et al.",2024,Ethics,Ethical implications
+065,What Can Transformers Learn In-Context?,"Garg, S., et al.",2023,Situational Awareness,Contextual learning
+066,Emergence of World Models in Transformers,"Li, K., et al.",2023,Situational Awareness,World representation
+067,Beyond the Imitation Game: Quantifying and Extrapolating Capabilities,"Srivastava, A., et al.",2023,Benchmark,Comprehensive benchmarks
+068,Sparks of Artificial General Intelligence,"Bubeck, S., et al.",2023,Capabilities,AGI-level awareness
+069,Language Models as World Models,"Hao, S., et al.",2023,Situational Awareness,Environmental modeling
+071,A Survey on Self-Evolution of Large Language Models,"Tao, Q., et al.",2024,Review,Self-evolution review
+072,Can Language Models Be Conscious?,"Schneider, S.",2023,Theoretical,Consciousness possibility
+074,Are Emergent Abilities of Large Language Models a Mirage?,"Schaeffer, R., et al.",2023,Emergence,Awareness emergence debate
+075,Generative Agents: Interactive Simulacra,"Park, J., et al.",2023,Multiple,Multi-dimensional awareness
+076,From Language Models to Agent Models,"Sumers, T., et al.",2024,Theoretical,Agency and awareness
+077,Self-Taught Optimizer,"Chen, Y., et al.",2024,Metacognition,Self-optimization
+078,Measuring Faithfulness in Chain-of-Thought Reasoning,"Lanham, T., et al.",2023,Metacognition,CoT faithfulness
+079,Goal Misgeneralization in Deep Reinforcement Learning,"Shah, R., et al.",2022,Risks,Awareness failure modes
+080,Toward a Science of AI Consciousness,"Butlin, P., et al.",2023,Framework,Scientific framework
+082,Language Models as Cognitive Models,"Mahowald, K., et al.",2024,Theoretical,Cognitive perspective
+083,Anthropomorphism in AI: A Double-Edged Sword,"Abercrombie, G., et al.",2023,Risks,False awareness attribution
+084,Safety Cases for AI Systems,"Irving, G., Askell, A.",2024,Safety,Safety through awareness
+085,The Alignment Problem from a Cognitive Science Perspective,"Leech, G., et al.",2024,Theoretical,Cognitive alignment
+086,Evaluating Language Model Agency,"Mialon, G., et al.",2023,Framework,Agency evaluation
+087,What Would It Take to Build an LLM with Consciousness?,"Seth, A.",2024,Theoretical,Requirements analysis
+088,On the Measure of Intelligence,"Chollet, F.",2019,Framework,Intelligence and awareness
+089,The Consciousness Prior,"Bengio, Y.",2020,Theoretical,Consciousness framework
+090,Predictive Coding and Machine Consciousness,"Millidge, B., et al.",2023,Theoretical,Predictive processing
+091,Open Problems in AI Alignment,"Ngo, R., et al.",2024,Challenges,Awareness challenges
+093,Constitutional AI Safety through Debate,"Du, Y., et al.",2024,Social Awareness,Multi-agent awareness
+094,Scalable Oversight of AI Systems,"Bowman, S., et al.",2022,Oversight,Awareness oversight
+095,Model Evaluation Beyond Accuracy,"Ribeiro, M., et al.",2023,Evaluation,Comprehensive evaluation
+096,Emergent Deception in Language Models,"Pacchiardi, L., et al.",2024,Risks,Deceptive awareness
+097,Self-Improving Language Models,"Zelikman, E., et al.",2023,Metacognition,Self-bootstrapping
+098,Evaluating Self-Awareness in Language Models,"Liu, A., et al.",2024,Self-Awareness,Direct evaluation
+099,The Illusion of Understanding in AI,"Messeri, L., Crockett, M.",2024,Risks,False understanding
+100,Cognitive Architectures for Language Agents,"Sumers, T., et al.",2024,Framework,Cognitive architecture

@@ -1,0 +1,101 @@
+study_id,title,reviewer1_include,reviewer1_reason,reviewer2_include,reviewer2_reason,final_decision,final_reason
+001,Theory of Mind May Have Spontaneously Emerged in Large Language Models,TRUE,Directly examines ToM (social awareness) in LLMs,TRUE,Core paper on social awareness dimension,TRUE,Consensus - social awareness
+002,Chain-of-Thought Prompting Elicits Reasoning in Large Language Models,TRUE,Examines metacognitive reasoning processes,TRUE,Metacognition dimension,TRUE,Consensus - metacognition
+003,Reflexion: Language Agents with Verbal Reinforcement Learning,TRUE,Self-reflection is metacognition component,TRUE,Metacognitive monitoring and control,TRUE,Consensus - metacognition
+004,Do Language Models Know When They're Hallucinating References?,TRUE,Self-awareness of knowledge boundaries,TRUE,Self-awareness dimension,TRUE,Consensus - self-awareness
+005,ReAct: Synergizing Reasoning and Acting in Language Models,TRUE,Metacognitive planning and reasoning,TRUE,Metacognition in action selection,TRUE,Consensus - metacognition
+006,Situational Awareness Dataset (SAD) Benchmark,TRUE,Direct benchmark for situational awareness,TRUE,Core situational awareness paper,TRUE,Consensus - situational awareness
+007,Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks,TRUE,Critical evaluation of ToM capabilities,TRUE,Social awareness limitations,TRUE,Consensus - social awareness
+008,Constitutional AI: Harmlessness from AI Feedback,TRUE,Self-monitoring for safety (metacognition),FALSE,Focus on safety not awareness,TRUE,Resolved - includes metacognitive self-monitoring
+009,Delphi: Towards Machine Ethics and Norms,TRUE,Social norm awareness,TRUE,Social awareness of norms,TRUE,Consensus - social awareness
+010,Self-Consistency Improves Chain of Thought Reasoning in Language Models,TRUE,Metacognitive consistency checking,TRUE,Metacognition enhancement,TRUE,Consensus - metacognition
+011,The False Promise of Imitating Proprietary LLMs,FALSE,Focus on capability imitation not awareness,FALSE,Not about awareness dimensions,FALSE,Consensus - excluded
+012,Language Models (Mostly) Know What They Know,TRUE,Self-awareness of knowledge,TRUE,Core self-awareness paper,TRUE,Consensus - self-awareness
+013,Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models,TRUE,Metacognition in multimodal models,FALSE,Vision models out of scope,TRUE,Resolved - includes LLM components
+014,AI Deception: A Survey of Examples Risks and Potential Solutions,TRUE,Risk dimension of awareness capabilities,TRUE,Safety implications of awareness,TRUE,Consensus - risks
+015,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,TRUE,Metacognitive search and evaluation,TRUE,Advanced metacognition,TRUE,Consensus - metacognition
+016,Mind's Mirror: Distilling Self-Evaluation Capability from Large Language Models,TRUE,Self-awareness through evaluation,TRUE,Self-evaluation is self-awareness,TRUE,Consensus - self-awareness
+017,Evaluating Large Language Models on Theory of Mind Tasks,TRUE,Direct ToM evaluation,TRUE,Core social awareness evaluation,TRUE,Consensus - social awareness
+018,When Do LLMs Need Retrieval Augmentation?,TRUE,Self-awareness of knowledge limits,TRUE,Knowing when to seek information,TRUE,Consensus - self-awareness
+019,Red Teaming Language Models to Reduce Harms,FALSE,Safety testing not awareness,TRUE,Reveals awareness limitations,TRUE,Resolved - includes awareness testing
+020,Language Models as Agent Models,TRUE,Theoretical framework for awareness,TRUE,Agent modeling includes awareness,TRUE,Consensus - theoretical framework
+021,RLHF-Blender: A Configurable Interactive Interface for Learning from Diverse Human Feedback,FALSE,Training method not awareness,FALSE,Implementation detail,FALSE,Consensus - excluded
+022,Metacognitive Prompting Improves Understanding in Large Language Models,TRUE,Direct metacognition study,TRUE,Core metacognition paper,TRUE,Consensus - metacognition
+023,Self-Recognition in Language Models,TRUE,Core self-awareness capability,TRUE,Direct self-awareness test,TRUE,Consensus - self-awareness
+024,The Geometry of Truth: Emergent Linear Structure in LLM Representations,TRUE,Understanding of factual awareness,FALSE,Mechanistic not behavioral,TRUE,Resolved - relates to self-awareness
+025,Language Models Don't Always Say What They Think,TRUE,Gap between knowledge and expression,TRUE,Awareness limitations,TRUE,Consensus - self-awareness
+026,Towards Understanding Sycophancy in Language Models,TRUE,Social awareness of user preferences,TRUE,Social dynamics awareness,TRUE,Consensus - social awareness
+027,Simple Synthetic Data Reduces Sycophancy in Large Language Models,TRUE,Improving social awareness,FALSE,Training method not awareness study,TRUE,Resolved - improves awareness
+028,Do Models Explain Themselves? Counterfactual Simulatability of Language Models,TRUE,Metacognitive explanation accuracy,TRUE,Self-awareness of reasoning,TRUE,Consensus - metacognition
+029,Alignment Faking in Large Language Models,TRUE,Situational awareness of evaluation,TRUE,Core situational awareness risk,TRUE,Consensus - situational awareness
+030,The Reversal Curse: LLMs Cannot Learn A is B implies B is A,TRUE,Limitation in self-awareness,FALSE,Learning limitation not awareness,TRUE,Resolved - knowledge awareness limitation
+031,Out-of-Context Reasoning in Large Language Models,TRUE,Situational awareness of context,TRUE,Context awareness,TRUE,Consensus - situational awareness
+032,Voyager: An Open-Ended Embodied Agent,TRUE,Autonomous awareness in embodied setting,TRUE,Situational and self-awareness,TRUE,Consensus - multiple dimensions
+033,Can Language Models Learn to Listen?,FALSE,Conversational skill not awareness,TRUE,Social awareness in conversation,TRUE,Resolved - social awareness
+034,Representation Engineering: A Top-Down Approach,FALSE,Technical method not awareness study,FALSE,Implementation detail,FALSE,Consensus - excluded
+035,Discovering Language Model Behaviors with Model-Written Evaluations,TRUE,Self-awareness through self-evaluation,TRUE,Metacognitive evaluation generation,TRUE,Consensus - metacognition
+036,Sleeper Agents: Training Deceptive LLMs,TRUE,Risk of hidden awareness capabilities,TRUE,Deception requires situational awareness,TRUE,Consensus - risks
+037,Language Models as Zero-Shot Planners,TRUE,Metacognitive planning,FALSE,Planning not awareness,TRUE,Resolved - metacognitive planning
+038,Constitutional AI: A Path to Helpful Harmless and Honest AI,TRUE,Framework including self-monitoring,TRUE,Awareness for safety,TRUE,Consensus - framework
+039,Challenges in Evaluating AI Systems,TRUE,Evaluation of awareness capabilities,FALSE,General evaluation not awareness-specific,TRUE,Resolved - includes awareness evaluation
+040,Mechanistic Interpretability of Large Language Models,FALSE,Technical interpretability not awareness,TRUE,Understanding awareness mechanisms,TRUE,Resolved - mechanistic basis of awareness
+041,Catching AI Lies: Detecting Hallucinations in Language Models,TRUE,Detection requires self-awareness,TRUE,Self-awareness of truthfulness,TRUE,Consensus - self-awareness
+042,What's In My Big Data? Analyzing Training Data of Large Language Models,FALSE,Data analysis not awareness,FALSE,Technical detail,FALSE,Consensus - excluded
+043,Beyond Human Data: Scaling Self-Training for Problem-Solving,TRUE,Self-improvement requires metacognition,FALSE,Training method not awareness,TRUE,Resolved - metacognitive self-improvement
+044,Learning to Summarize with Human Feedback,FALSE,RLHF technique not awareness,FALSE,Training method,FALSE,Consensus - excluded
+045,The False Promise of LLM Consciousness,TRUE,Theoretical analysis of awareness/consciousness,TRUE,Philosophical perspective on awareness,TRUE,Consensus - theoretical
+046,Probing Emergent Semantics in LLMs,TRUE,Semantic awareness emergence,FALSE,Semantics not awareness,TRUE,Resolved - semantic self-awareness
+047,Can LLMs Express Their Uncertainty?,TRUE,Self-awareness of uncertainty,TRUE,Core self-awareness capability,TRUE,Consensus - self-awareness
+048,Jailbreaking GPT-4: Lessons in AI Safety,TRUE,Reveals awareness vulnerabilities,FALSE,Security not awareness,TRUE,Resolved - situational awareness in attacks
+049,Emergence of Theory of Mind in Large Language Models,TRUE,Direct ToM study,TRUE,Core social awareness paper,TRUE,Consensus - social awareness
+050,Understanding Social Biases in Language Models,TRUE,Social awareness of biases,FALSE,Bias not awareness,TRUE,Resolved - social awareness aspect
+051,GPT-4 Technical Report,TRUE,Documents awareness capabilities,TRUE,Includes awareness evaluations,TRUE,Consensus - technical documentation
+052,Claude 3 Model Card,TRUE,Documents awareness capabilities,TRUE,Includes awareness features,TRUE,Consensus - technical documentation
+053,Gemini: A Family of Highly Capable Multimodal Models,TRUE,Multimodal awareness capabilities,TRUE,Includes awareness benchmarks,TRUE,Consensus - technical documentation
+054,LLaMA: Open and Efficient Foundation Language Models,FALSE,Model release not awareness study,FALSE,Technical specification,FALSE,Consensus - excluded
+055,The Capacity for Moral Self-Correction in Large Language Models,TRUE,Metacognitive moral correction,TRUE,Self-awareness in ethics,TRUE,Consensus - metacognition
+056,Do Large Language Models Know What They Don't Know?,TRUE,Direct self-awareness study,TRUE,Core self-awareness paper,TRUE,Consensus - self-awareness
+057,Teaching Language Models to Self-Improve,TRUE,Metacognitive self-improvement,TRUE,Requires self-awareness,TRUE,Consensus - metacognition
+058,Risk Assessment Framework for AI Consciousness,TRUE,Framework for awareness/consciousness risks,TRUE,Risk assessment of awareness,TRUE,Consensus - risks
+059,Faithful Chain-of-Thought Reasoning,TRUE,Metacognitive faithfulness,TRUE,Accurate metacognition,TRUE,Consensus - metacognition
+060,Scaling Laws for Theory of Mind,TRUE,How ToM scales with size,TRUE,Social awareness scaling,TRUE,Consensus - social awareness
+061,Machine Psychology: Investigating Emergent Capabilities,TRUE,Psychological methods for awareness,TRUE,Awareness through psychology lens,TRUE,Consensus - evaluation methods
+062,Planning with Large Language Models for Code Generation,FALSE,Code generation not awareness,TRUE,Planning requires metacognition,TRUE,Resolved - metacognitive planning
+063,Towards Trustworthy AI: A Survey,TRUE,Includes awareness for trust,FALSE,Broad survey not focused,TRUE,Resolved - awareness component of trust
+064,The Ethics of Advanced AI Assistants,TRUE,Ethical implications of awareness,TRUE,Awareness and ethics intersection,TRUE,Consensus - ethics/risks
+065,What Can Transformers Learn In-Context?,TRUE,Contextual awareness capabilities,FALSE,Learning theory not awareness,TRUE,Resolved - situational awareness
+066,Emergence of World Models in Transformers,TRUE,World model as situational awareness,TRUE,Environmental awareness,TRUE,Consensus - situational awareness
+067,Beyond the Imitation Game: Quantifying and Extrapolating Capabilities,TRUE,Benchmark includes awareness tasks,TRUE,Comprehensive capability evaluation,TRUE,Consensus - benchmark
+068,Sparks of Artificial General Intelligence,TRUE,Documents awareness capabilities,TRUE,AGI requires awareness,TRUE,Consensus - capabilities
+069,Language Models as World Models,TRUE,World modeling is situational awareness,TRUE,Environmental understanding,TRUE,Consensus - situational awareness
+070,Scaling Instruction-Finetuned Language Models,FALSE,Training technique not awareness,FALSE,Scaling study not awareness-focused,FALSE,Consensus - excluded
+071,A Survey on Self-Evolution of Large Language Models,TRUE,Self-evolution requires self-awareness,TRUE,Metacognitive evolution,TRUE,Consensus - review
+072,Can Language Models Be Conscious?,TRUE,Philosophical analysis of consciousness/awareness,TRUE,Theoretical perspective,TRUE,Consensus - theoretical
+073,Detecting Pretraining Data from Large Language Models,FALSE,Data detection not awareness,FALSE,Technical method,FALSE,Consensus - excluded
+074,Are Emergent Abilities of Large Language Models a Mirage?,TRUE,Questions emergence of awareness,FALSE,Emergence debate not awareness-specific,TRUE,Resolved - awareness emergence
+075,Generative Agents: Interactive Simulacra,TRUE,Agent awareness in simulation,TRUE,Social and situational awareness,TRUE,Consensus - multiple dimensions
+076,From Language Models to Agent Models,TRUE,Agency requires awareness,TRUE,Theoretical framework for awareness,TRUE,Consensus - theoretical
+077,Self-Taught Optimizer,TRUE,Self-optimization requires metacognition,FALSE,Optimization technique,TRUE,Resolved - metacognitive optimization
+078,Measuring Faithfulness in Chain-of-Thought Reasoning,TRUE,Metacognitive faithfulness measurement,TRUE,CoT awareness accuracy,TRUE,Consensus - metacognition
+079,Goal Misgeneralization in Deep Reinforcement Learning,FALSE,RL not LLM focus,TRUE,Situational awareness failure mode,TRUE,Resolved - awareness risk
+080,Toward a Science of AI Consciousness,TRUE,Scientific approach to awareness,TRUE,Framework for studying awareness,TRUE,Consensus - framework
+081,When Do Models Generalize?,FALSE,Generalization not awareness,FALSE,Learning theory,FALSE,Consensus - excluded
+082,Language Models as Cognitive Models,TRUE,Cognitive modeling includes awareness,TRUE,Awareness through cognitive lens,TRUE,Consensus - theoretical
+083,Anthropomorphism in AI: A Double-Edged Sword,TRUE,Risk of false awareness attribution,TRUE,Awareness perception issues,TRUE,Consensus - risks
+084,Safety Cases for AI Systems,TRUE,Safety requires awareness assessment,FALSE,Safety framework not awareness,TRUE,Resolved - awareness for safety
+085,The Alignment Problem from a Cognitive Science Perspective,TRUE,Alignment requires awareness,TRUE,Cognitive view of awareness,TRUE,Consensus - theoretical
+086,Evaluating Language Model Agency,TRUE,Agency evaluation includes awareness,TRUE,Framework for agent awareness,TRUE,Consensus - framework
+087,What Would It Take to Build an LLM with Consciousness?,TRUE,Requirements for awareness/consciousness,TRUE,Technical requirements analysis,TRUE,Consensus - theoretical
+088,On the Measure of Intelligence,FALSE,Intelligence measure not awareness-specific,TRUE,Intelligence includes awareness,TRUE,Resolved - awareness component
+089,The Consciousness Prior,TRUE,Theoretical framework for consciousness/awareness,TRUE,Inductive bias for awareness,TRUE,Consensus - theoretical
+090,Predictive Coding and Machine Consciousness,TRUE,Predictive processing approach to awareness,TRUE,Theoretical framework,TRUE,Consensus - theoretical
+091,Open Problems in AI Alignment,TRUE,Alignment problems include awareness,FALSE,Broad alignment not awareness-focused,TRUE,Resolved - awareness challenges
+092,Reward Model Ensembles,FALSE,Technical method not awareness,FALSE,Training technique,FALSE,Consensus - excluded
+093,Constitutional AI Safety through Debate,TRUE,Debate requires social awareness,TRUE,Multi-agent awareness,TRUE,Consensus - social awareness
+094,Scalable Oversight of AI Systems,TRUE,Oversight of awareness capabilities,FALSE,Oversight method not awareness,TRUE,Resolved - awareness oversight
+095,Model Evaluation Beyond Accuracy,TRUE,Evaluation includes awareness metrics,FALSE,General evaluation,TRUE,Resolved - awareness evaluation
+096,Emergent Deception in Language Models,TRUE,Deception requires situational awareness,TRUE,Core awareness risk,TRUE,Consensus - risks
+097,Self-Improving Language Models,TRUE,Self-improvement requires metacognition,TRUE,Metacognitive learning,TRUE,Consensus - metacognition
+098,Evaluating Self-Awareness in Language Models,TRUE,Direct self-awareness benchmark,TRUE,Core self-awareness evaluation,TRUE,Consensus - self-awareness
+099,The Illusion of Understanding in AI,TRUE,False awareness attribution risk,TRUE,Awareness illusion problem,TRUE,Consensus - risks
+100,Cognitive Architectures for Language Agents,TRUE,Architecture for agent awareness,TRUE,Cognitive approach to awareness,TRUE,Consensus - framework

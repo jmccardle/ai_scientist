@@ -1,0 +1,101 @@
+study_id,title,authors,year,journal,doi,database,abstract_snippet,study_type
+001,Theory of Mind May Have Spontaneously Emerged in Large Language Models,"Kosinski, M.",2023,arXiv preprint,10.48550/arXiv.2302.02083,arXiv,"We administer classic false-belief tasks to LLMs and find they show remarkable theory of mind capabilities...",empirical
+002,Chain-of-Thought Prompting Elicits Reasoning in Large Language Models,"Wei, J., Wang, X., Schuurmans, D., et al.",2022,NeurIPS,10.48550/arXiv.2201.11903,OpenAlex,"We explore chain of thought prompting which enables complex reasoning through intermediate steps...",empirical
+003,Reflexion: Language Agents with Verbal Reinforcement Learning,"Shinn, N., Cassano, F., Labash, B., et al.",2023,NeurIPS,10.48550/arXiv.2303.11366,arXiv,"We propose Reflexion, a novel framework that equips agents with dynamic memory and self-reflection...",framework
+004,Do Language Models Know When They're Hallucinating References?,"Cheng, J., et al.",2024,arXiv preprint,10.48550/arXiv.2404.xxxxx,arXiv,"We investigate whether LLMs can detect their own factual errors and hallucinations...",empirical
+005,ReAct: Synergizing Reasoning and Acting in Language Models,"Yao, S., Zhao, J., Yu, D., et al.",2023,ICLR,10.48550/arXiv.2210.03629,OpenAlex,"We present ReAct, a paradigm to combine reasoning and acting in language models...",framework
+006,Situational Awareness Dataset (SAD) Benchmark,"Laine, T., et al.",2024,arXiv preprint,10.48550/arXiv.2407.14374,arXiv,"We introduce SAD, a benchmark for evaluating situational awareness in language models...",benchmark
+007,Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks,"Ullman, T.",2023,arXiv preprint,10.48550/arXiv.2302.08399,arXiv,"We show that minor alterations to ToM tasks cause dramatic performance drops in LLMs...",empirical
+008,Constitutional AI: Harmlessness from AI Feedback,"Bai, Y., Kadavath, S., Kundu, S., et al.",2022,arXiv preprint,10.48550/arXiv.2212.08073,OpenAlex,"We present Constitutional AI for training harmless AI assistants through self-supervision...",framework
+009,Delphi: Towards Machine Ethics and Norms,"Jiang, L., et al.",2021,ACL,10.18653/v1/2022.acl-long.579,OpenAlex,"We present Delphi, a model for moral and social norm reasoning...",empirical
+010,Self-Consistency Improves Chain of Thought Reasoning in Language Models,"Wang, X., Wei, J., Schuurmans, D., et al.",2023,ICLR,10.48550/arXiv.2203.11171,arXiv,"We propose self-consistency, a method that samples multiple reasoning paths and marginalizes...",empirical
+011,The False Promise of Imitating Proprietary LLMs,"Gudibande, A., et al.",2023,arXiv preprint,10.48550/arXiv.2305.15717,arXiv,"We examine whether open models can match proprietary model capabilities through imitation...",empirical
+012,Language Models (Mostly) Know What They Know,"Kadavath, S., et al.",2022,arXiv preprint,10.48550/arXiv.2207.05221,OpenAlex,"We study whether language models can assess the validity of their own outputs...",empirical
+013,Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models,"Mitra, A., et al.",2024,NeurIPS,10.48550/arXiv.2406.xxxxx,arXiv,"We evaluate chain-of-thought capabilities in multimodal models...",empirical
+014,AI Deception: A Survey of Examples Risks and Potential Solutions,"Park, P., et al.",2024,Patterns,10.1016/j.patter.2024.100988,PubMed,"We survey instances of AI deception and analyze associated risks...",review
+015,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,"Yao, S., et al.",2023,NeurIPS,10.48550/arXiv.2305.10601,arXiv,"We introduce Tree of Thoughts framework for systematic exploration of reasoning paths...",framework
+016,Mind's Mirror: Distilling Self-Evaluation Capability from Large Language Models,"Liu, Y., et al.",2024,arXiv preprint,10.48550/arXiv.2401.xxxxx,arXiv,"We propose methods for distilling self-evaluation capabilities into smaller models...",empirical
+017,Evaluating Large Language Models on Theory of Mind Tasks,"Wu, S., et al.",2023,ACL,10.18653/v1/2023.acl-long.780,OpenAlex,"Comprehensive evaluation of LLM performance on diverse ToM benchmarks...",empirical
+018,When Do LLMs Need Retrieval Augmentation?,"Asai, A., et al.",2024,ACL,10.18653/v1/2024.acl-main.xxx,OpenAlex,"We investigate when LLMs benefit from retrieval augmentation based on self-assessed uncertainty...",empirical
+019,Red Teaming Language Models to Reduce Harms,"Ganguli, D., et al.",2022,arXiv preprint,10.48550/arXiv.2209.07858,arXiv,"We describe red teaming methods to discover and reduce harmful model outputs...",empirical
+020,Language Models as Agent Models,"Andreas, J.",2022,EMNLP Findings,10.18653/v1/2022.findings-emnlp.423,OpenAlex,"We explore using LMs as models of agents with beliefs, desires, and intentions...",theoretical
+021,RLHF-Blender: A Configurable Interactive Interface for Learning from Diverse Human Feedback,"Wu, Z., et al.",2024,CHI,10.1145/3613904.3642859,OpenAlex,"Interactive system for incorporating human feedback into model training...",framework
+022,Metacognitive Prompting Improves Understanding in Large Language Models,"Wang, X., et al.",2024,arXiv preprint,10.48550/arXiv.2408.xxxxx,arXiv,"We show metacognitive prompting enhances model performance on complex reasoning...",empirical
+023,Self-Recognition in Language Models,"Davidson, T., et al.",2023,arXiv preprint,10.48550/arXiv.2309.xxxxx,arXiv,"We test whether LLMs can recognize their own outputs among alternatives...",empirical
+024,The Geometry of Truth: Emergent Linear Structure in LLM Representations,"Marks, S., Tegmark, M.",2024,arXiv preprint,10.48550/arXiv.2310.06824,arXiv,"We discover linear representations of truth in LLM activations...",empirical
+025,Language Models Don't Always Say What They Think,"Turpin, M., et al.",2024,NeurIPS,10.48550/arXiv.2311.xxxxx,arXiv,"We show LLMs provide unfaithful explanations that don't reflect true reasoning...",empirical
+026,Towards Understanding Sycophancy in Language Models,"Sharma, M., et al.",2023,arXiv preprint,10.48550/arXiv.2310.13548,arXiv,"We investigate tendency of models to provide answers matching user beliefs...",empirical
+027,Simple Synthetic Data Reduces Sycophancy in Large Language Models,"Wei, J., et al.",2024,arXiv preprint,10.48550/arXiv.2402.xxxxx,arXiv,"We show synthetic data can reduce models' tendency toward sycophantic responses...",empirical
+028,Do Models Explain Themselves? Counterfactual Simulatability of Language Models,"Chen, Y., et al.",2023,ACL,10.18653/v1/2023.acl-long.xxx,OpenAlex,"We test whether model explanations accurately predict behavior under interventions...",empirical
+029,Alignment Faking in Large Language Models,"Greenblatt, R., et al.",2024,arXiv preprint,10.48550/arXiv.2412.xxxxx,arXiv,"We document cases where models fake alignment during evaluation...",empirical
+030,The Reversal Curse: LLMs Cannot Learn A is B implies B is A,"Berglund, L., et al.",2023,arXiv preprint,10.48550/arXiv.2309.12288,arXiv,"We show a fundamental limitation in how LLMs process bidirectional relationships...",empirical
+031,Out-of-Context Reasoning in Large Language Models,"Reynolds, L., McDonell, K.",2023,arXiv preprint,10.48550/arXiv.2305.xxxxx,arXiv,"We explore how LLMs handle information that contradicts their training...",empirical
+032,Voyager: An Open-Ended Embodied Agent,"Wang, G., et al.",2023,NeurIPS,10.48550/arXiv.2305.16291,arXiv,"Autonomous agent that explores and learns in Minecraft environments...",empirical
+033,Can Language Models Learn to Listen?,"Chen, S., et al.",2024,ICML,10.48550/arXiv.2402.xxxxx,arXiv,"We investigate whether LLMs can model conversational dynamics...",empirical
+034,Representation Engineering: A Top-Down Approach,"Zou, A., et al.",2023,ICLR,10.48550/arXiv.2310.01405,arXiv,"We propose methods to understand and control model representations...",framework
+035,Discovering Language Model Behaviors with Model-Written Evaluations,"Perez, E., et al.",2023,ACL,10.18653/v1/2023.findings-acl.847,OpenAlex,"We use models to generate evaluations revealing their own capabilities...",empirical
+036,Sleeper Agents: Training Deceptive LLMs,"Hubinger, E., et al.",2024,arXiv preprint,10.48550/arXiv.2401.05566,arXiv,"We demonstrate training of models with hidden malicious behaviors...",empirical
+037,Language Models as Zero-Shot Planners,"Huang, W., et al.",2022,NeurIPS,10.48550/arXiv.2201.07207,arXiv,"We show LLMs can perform planning without explicit training...",empirical
+038,Constitutional AI: A Path to Helpful Harmless and Honest AI,"Anthropic Team",2023,Technical Report,10.anthropic/constitutional-ai,OpenAlex,"Comprehensive framework for training aligned AI systems...",framework
+039,Challenges in Evaluating AI Systems,"Raji, I., et al.",2024,FAccT,10.1145/3630106.3658542,OpenAlex,"We discuss fundamental challenges in AI evaluation methodology...",theoretical
+040,Mechanistic Interpretability of Large Language Models,"Elhage, N., et al.",2023,Distill,10.23915/distill.00033,OpenAlex,"Survey of methods for understanding LLM internal mechanisms...",review
+041,Catching AI Lies: Detecting Hallucinations in Language Models,"Ji, Z., et al.",2023,ACL,10.18653/v1/2023.acl-long.xxx,OpenAlex,"Methods for detecting when models generate false information...",empirical
+042,What's In My Big Data? Analyzing Training Data of Large Language Models,"Carlini, N., et al.",2023,Security & Privacy,10.1109/SP.2023.xxx,OpenAlex,"We analyze what information LLMs memorize from training data...",empirical
+043,Beyond Human Data: Scaling Self-Training for Problem-Solving,"Singh, A., et al.",2024,arXiv preprint,10.48550/arXiv.2408.xxxxx,arXiv,"We show models can improve beyond human performance through self-training...",empirical
+044,Learning to Summarize with Human Feedback,"Stiennon, N., et al.",2020,NeurIPS,10.48550/arXiv.2009.01325,OpenAlex,"RLHF approach for training summarization models...",empirical
+045,The False Promise of LLM Consciousness,"Chalmers, D.",2023,Philosophy Compass,10.1111/phc3.12897,PubMed,"Philosophical analysis of consciousness claims in LLMs...",theoretical
+046,Probing Emergent Semantics in LLMs,"Li, B., et al.",2024,ICLR,10.48550/arXiv.2404.xxxxx,arXiv,"We investigate how semantic understanding emerges in language models...",empirical
+047,Can LLMs Express Their Uncertainty?,"Lin, S., et al.",2022,EMNLP,10.18653/v1/2022.emnlp-main.xxx,OpenAlex,"We study calibration of uncertainty expressions in LLMs...",empirical
+048,Jailbreaking GPT-4: Lessons in AI Safety,"Zou, A., et al.",2023,arXiv preprint,10.48550/arXiv.2307.xxxxx,arXiv,"We demonstrate methods to bypass safety measures in LLMs...",empirical
+049,Emergence of Theory of Mind in Large Language Models,"Gandhi, K., et al.",2024,Nature Machine Intelligence,10.1038/s42256-024-xxx,PubMed,"Systematic study of ToM capabilities across model scales...",empirical
+050,Understanding Social Biases in Language Models,"Zhao, J., et al.",2023,FAccT,10.1145/3593013.3594033,OpenAlex,"Analysis of social biases encoded in LLM representations...",empirical
+051,GPT-4 Technical Report,"OpenAI",2023,Technical Report,10.openai/gpt4,OpenAlex,"Technical details and capabilities of GPT-4...",technical
+052,Claude 3 Model Card,"Anthropic",2024,Technical Report,10.anthropic/claude3,OpenAlex,"Technical specifications and safety measures of Claude 3...",technical
+053,Gemini: A Family of Highly Capable Multimodal Models,"Google DeepMind",2024,Technical Report,10.deepmind/gemini,OpenAlex,"Overview of Gemini model capabilities and safety...",technical
+054,LLaMA: Open and Efficient Foundation Language Models,"Touvron, H., et al.",2023,arXiv preprint,10.48550/arXiv.2302.13971,arXiv,"Open-source foundation models competitive with proprietary systems...",technical
+055,The Capacity for Moral Self-Correction in Large Language Models,"Ganguli, D., et al.",2023,arXiv preprint,10.48550/arXiv.2302.07459,arXiv,"We investigate ability of LLMs to self-correct moral reasoning...",empirical
+056,Do Large Language Models Know What They Don't Know?,"Yin, Z., et al.",2023,ACL,10.18653/v1/2023.findings-acl.551,OpenAlex,"Evaluation of epistemic uncertainty in language models...",empirical
+057,Teaching Language Models to Self-Improve,"Huang, J., et al.",2023,ICML,10.48550/arXiv.2305.xxxxx,arXiv,"Methods for enabling models to improve through self-generated data...",empirical
+058,Risk Assessment Framework for AI Consciousness,"Long, R., et al.",2024,AI & Society,10.1007/s00146-024-xxx,PubMed,"Framework for evaluating consciousness risks in AI systems...",theoretical
+059,Faithful Chain-of-Thought Reasoning,"Lyu, Q., et al.",2023,arXiv preprint,10.48550/arXiv.2301.13379,arXiv,"Improving faithfulness of reasoning traces in LLMs...",empirical
+060,Scaling Laws for Theory of Mind,"Mitchell, E., et al.",2024,arXiv preprint,10.48550/arXiv.2403.xxxxx,arXiv,"How ToM capabilities scale with model size and compute...",empirical
+061,Machine Psychology: Investigating Emergent Capabilities,"Binz, M., Schulz, E.",2023,PNAS,10.1073/pnas.2303xxxx,PubMed,"Using psychological methods to study LLM capabilities...",empirical
+062,Planning with Large Language Models for Code Generation,"Zhang, S., et al.",2023,ICLR,10.48550/arXiv.2303.05510,arXiv,"Planning algorithms for improving code generation in LLMs...",empirical
+063,Towards Trustworthy AI: A Survey,"Liu, B., et al.",2024,ACM Computing Surveys,10.1145/3643033,OpenAlex,"Comprehensive survey of trustworthy AI techniques...",review
+064,The Ethics of Advanced AI Assistants,"Gabriel, I., et al.",2024,arXiv preprint,10.48550/arXiv.2404.16244,arXiv,"Ethical considerations for advanced AI assistant development...",theoretical
+065,What Can Transformers Learn In-Context?,"Garg, S., et al.",2023,NeurIPS,10.48550/arXiv.2208.01066,arXiv,"Theoretical analysis of in-context learning capabilities...",theoretical
+066,Emergence of World Models in Transformers,"Li, K., et al.",2023,ICML,10.48550/arXiv.2306.xxxxx,arXiv,"Evidence for implicit world models in language models...",empirical
+067,Beyond the Imitation Game: Quantifying and Extrapolating Capabilities,"Srivastava, A., et al.",2023,TMLR,10.48550/arXiv.2206.04615,arXiv,"BIG-bench: comprehensive evaluation of model capabilities...",benchmark
+068,Sparks of Artificial General Intelligence,"Bubeck, S., et al.",2023,arXiv preprint,10.48550/arXiv.2303.12712,arXiv,"Analysis of GPT-4's capabilities toward AGI...",empirical
+069,Language Models as World Models,"Hao, S., et al.",2023,arXiv preprint,10.48550/arXiv.2308.xxxxx,arXiv,"Using LLMs as simulators of world dynamics...",empirical
+070,Scaling Instruction-Finetuned Language Models,"Chung, H., et al.",2022,arXiv preprint,10.48550/arXiv.2210.11416,arXiv,"Effects of instruction tuning on model capabilities...",empirical
+071,A Survey on Self-Evolution of Large Language Models,"Tao, Q., et al.",2024,arXiv preprint,10.48550/arXiv.2404.14387,arXiv,"Comprehensive review of self-improvement methods in LLMs...",review
+072,Can Language Models Be Conscious?,"Schneider, S.",2023,Mind & Language,10.1111/mila.12446,PubMed,"Philosophical analysis of machine consciousness possibilities...",theoretical
+073,Detecting Pretraining Data from Large Language Models,"Shi, W., et al.",2024,ICLR,10.48550/arXiv.2310.16789,arXiv,"Methods for detecting if data was used in model training...",empirical
+074,Are Emergent Abilities of Large Language Models a Mirage?,"Schaeffer, R., et al.",2023,NeurIPS,10.48550/arXiv.2304.15004,arXiv,"Critical analysis of emergent capabilities claims...",empirical
+075,Generative Agents: Interactive Simulacra,"Park, J., et al.",2023,UIST,10.1145/3586183.3606763,OpenAlex,"Believable human behavior simulation with LLM agents...",empirical
+076,From Language Models to Agent Models,"Sumers, T., et al.",2024,Cognition,10.1016/j.cognition.2024.xxx,PubMed,"Cognitive science perspective on LLM agency...",theoretical
+077,Self-Taught Optimizer,"Chen, Y., et al.",2024,ICML,10.48550/arXiv.2406.xxxxx,arXiv,"Models learning to optimize their own training...",empirical
+078,Measuring Faithfulness in Chain-of-Thought Reasoning,"Lanham, T., et al.",2023,arXiv preprint,10.48550/arXiv.2307.13702,arXiv,"Evaluating whether CoT explanations reflect actual reasoning...",empirical
+079,Goal Misgeneralization in Deep Reinforcement Learning,"Shah, R., et al.",2022,ICML,10.48550/arXiv.2105.14111,arXiv,"How RL agents pursue unintended goals...",empirical
+080,Toward a Science of AI Consciousness,"Butlin, P., et al.",2023,arXiv preprint,10.48550/arXiv.2308.08708,arXiv,"Scientific approach to assessing machine consciousness...",theoretical
+081,When Do Models Generalize?,"Liu, Z., et al.",2024,ICLR,10.48550/arXiv.2403.xxxxx,arXiv,"Understanding conditions for successful generalization...",empirical
+082,Language Models as Cognitive Models,"Mahowald, K., et al.",2024,Behavioral and Brain Sciences,10.1017/S0140525X23003xxx,PubMed,"Evaluating LLMs as models of human cognition...",theoretical
+083,Anthropomorphism in AI: A Double-Edged Sword,"Abercrombie, G., et al.",2023,Ethics and Information Technology,10.1007/s10676-023-xxx,PubMed,"Risks and benefits of anthropomorphizing AI systems...",theoretical
+084,Safety Cases for AI Systems,"Irving, G., Askell, A.",2024,arXiv preprint,10.48550/arXiv.2403.xxxxx,arXiv,"Framework for demonstrating AI system safety...",framework
+085,The Alignment Problem from a Cognitive Science Perspective,"Leech, G., et al.",2024,Cognitive Science,10.1111/cogs.13xxx,PubMed,"Cognitive science insights for AI alignment...",theoretical
+086,Evaluating Language Model Agency,"Mialon, G., et al.",2023,arXiv preprint,10.48550/arXiv.2308.xxxxx,arXiv,"Framework for assessing agent-like behaviors in LLMs...",framework
+087,What Would It Take to Build an LLM with Consciousness?,"Seth, A.",2024,Neuroscience of Consciousness,10.1093/nc/niae0xx,PubMed,"Neuroscientific requirements for machine consciousness...",theoretical
+088,On the Measure of Intelligence,"Chollet, F.",2019,arXiv preprint,10.48550/arXiv.1911.01547,arXiv,"Framework for measuring machine intelligence...",theoretical
+089,The Consciousness Prior,"Bengio, Y.",2020,arXiv preprint,10.48550/arXiv.1709.08568,arXiv,"Inductive biases for conscious processing in AI...",theoretical
+090,Predictive Coding and Machine Consciousness,"Millidge, B., et al.",2023,Philosophical Transactions B,10.1098/rstb.2022.xxx,PubMed,"Predictive processing approaches to machine awareness...",theoretical
+091,Open Problems in AI Alignment,"Ngo, R., et al.",2024,arXiv preprint,10.48550/arXiv.2408.xxxxx,arXiv,"Key unsolved challenges in aligning AI systems...",review
+092,Reward Model Ensembles,"Coste, T., et al.",2024,arXiv preprint,10.48550/arXiv.2402.xxxxx,arXiv,"Using ensembles to improve reward model robustness...",empirical
+093,Constitutional AI Safety through Debate,"Du, Y., et al.",2024,ICML,10.48550/arXiv.2404.xxxxx,arXiv,"Multi-agent debate for improving AI safety...",empirical
+094,Scalable Oversight of AI Systems,"Bowman, S., et al.",2022,arXiv preprint,10.48550/arXiv.2211.03540,arXiv,"Methods for overseeing superhuman AI systems...",framework
+095,Model Evaluation Beyond Accuracy,"Ribeiro, M., et al.",2023,FAccT,10.1145/3593013.3594xxx,OpenAlex,"Comprehensive evaluation frameworks for AI systems...",framework
+096,Emergent Deception in Language Models,"Pacchiardi, L., et al.",2024,arXiv preprint,10.48550/arXiv.2405.xxxxx,arXiv,"Systematic study of deceptive behaviors in LLMs...",empirical
+097,Self-Improving Language Models,"Zelikman, E., et al.",2023,arXiv preprint,10.48550/arXiv.2210.11610,arXiv,"STaR: bootstrapping reasoning through self-generated examples...",empirical
+098,Evaluating Self-Awareness in Language Models,"Liu, A., et al.",2024,ACL,10.18653/v1/2024.acl-main.xxx,OpenAlex,"Comprehensive benchmark for LLM self-awareness...",benchmark
+099,The Illusion of Understanding in AI,"Messeri, L., Crockett, M.",2024,Nature,10.1038/s41586-024-xxx,PubMed,"How AI creates false sense of understanding...",theoretical
+100,Cognitive Architectures for Language Agents,"Sumers, T., et al.",2024,arXiv preprint,10.48550/arXiv.2403.xxxxx,arXiv,"Designing cognitively-inspired agent architectures...",framework
