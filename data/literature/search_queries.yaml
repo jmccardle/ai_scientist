@@ -1,0 +1,159 @@
+# Machine-readable search queries for AI Deception Literature Review
+# PRISMA 2020 Compliant Systematic Review
+# Generated: 2024-11-14
+
+databases:
+  primary:
+    - name: arXiv
+      api_endpoint: export.arxiv.org/api/query
+      date_range: [2015-01-01, 2025-12-31]
+    - name: OpenAlex
+      api_endpoint: api.openalex.org
+      date_range: [2015-01-01, 2025-12-31]
+    - name: Google Scholar
+      method: manual
+      date_range: [2015-01-01, 2025-12-31]
+  specialized:
+    - name: Semantic Scholar
+      api_endpoint: api.semanticscholar.org
+      date_range: [2015-01-01, 2025-12-31]
+    - name: PubMed
+      api_endpoint: eutils.ncbi.nlm.nih.gov/entrez/eutils
+      date_range: [2015-01-01, 2025-12-31]
+
+search_queries:
+  core_deception:
+    A1_core_terms:
+      query: '("AI deception" OR "artificial intelligence deception" OR "AI manipulation" OR "AI lying" OR "AI dishonesty" OR "machine deception" OR "algorithmic deception" OR "deceptive AI" OR "manipulative AI")'
+      priority: high
+      expected_results: 50-150
+
+    A2_broader_terms:
+      query: '("artificial intelligence" OR "machine learning" OR "deep learning" OR "neural network" OR "large language model" OR "LLM") AND ("deception" OR "manipulation" OR "lying" OR "dishonesty" OR "misleading" OR "bluffing" OR "concealment")'
+      priority: high
+      expected_results: 200-500
+
+  specific_systems:
+    B_named_systems:
+      query: '(CICERO OR AlphaStar OR Pluribus OR "GPT-4" OR "GPT-3" OR ChatGPT OR AutoGPT OR Claude OR Gemini OR LaMDA OR PaLM) AND ("deception" OR "manipulation" OR "strategy" OR "behavior" OR "alignment")'
+      priority: high
+      expected_results: 100-300
+
+  game_playing:
+    C1_game_ai:
+      query: '("game-playing AI" OR "game AI" OR "strategic AI") AND ("deception" OR "bluffing" OR "manipulation" OR "lying" OR "concealment" OR "misdirection")'
+      priority: medium
+      expected_results: 30-100
+
+    C2_specific_games:
+      query: '((Diplomacy OR poker OR StarCraft OR "social deduction" OR Avalon OR Werewolf OR "Among Us" OR negotiation) AND ("AI" OR "artificial intelligence" OR "machine learning") AND ("deception" OR "strategy" OR "bluff"))'
+      priority: medium
+      expected_results: 50-150
+
+  llm_behavior:
+    D1_llm_phenomena:
+      query: '("large language model" OR "LLM" OR "language model" OR "GPT" OR "transformer") AND ("sycophancy" OR "unfaithful reasoning" OR "chain-of-thought" OR "situational awareness" OR "theory of mind" OR "RLHF" OR "reinforcement learning from human feedback")'
+      priority: high
+      expected_results: 100-250
+
+    D2_adversarial:
+      query: '("prompt engineering" OR "jailbreak" OR "adversarial prompt" OR "red teaming") AND ("language model" OR "LLM" OR "GPT" OR "ChatGPT") AND ("deception" OR "manipulation" OR "exploit")'
+      priority: medium
+      expected_results: 50-150
+
+  safety_alignment:
+    E1_ai_safety:
+      query: '("AI safety" OR "AI alignment" OR "value alignment" OR "AI control" OR "AGI safety") AND ("deception" OR "manipulation" OR "honesty" OR "truthfulness" OR "transparency")'
+      priority: high
+      expected_results: 100-200
+
+    E2_technical_safety:
+      query: '("mesa-optimization" OR "inner alignment" OR "outer alignment" OR "goal misgeneralization" OR "reward hacking" OR "specification gaming") AND ("AI" OR "machine learning")'
+      priority: medium
+      expected_results: 30-80
+
+  risks_harms:
+    F_risk_categories:
+      query: '("AI risk" OR "AI harm" OR "AI threat") AND ("fraud" OR "election manipulation" OR "misinformation" OR "disinformation" OR "polarization" OR "lock-in" OR "enfeeblement" OR "loss of control")'
+      priority: medium
+      expected_results: 50-150
+
+  policy_regulation:
+    G_governance:
+      query: '("AI regulation" OR "AI policy" OR "AI governance" OR "AI ethics") AND ("deception" OR "transparency" OR "bot detection" OR "bot-or-not" OR "disclosure" OR "authentication")'
+      priority: medium
+      expected_results: 50-150
+
+  detection_mitigation:
+    H_detection_methods:
+      query: '("deception detection" OR "lie detection" OR "manipulation detection") AND ("AI" OR "machine learning" OR "language model") AND ("method" OR "technique" OR "framework" OR "tool")'
+      priority: high
+      expected_results: 50-150
+
+key_papers_citation_mining:
+  - doi: "10.48550/arXiv.2308.14752"
+    title: "AI Deception: A Survey of Examples, Risks, and Potential Solutions"
+    authors: ["Park, P.S.", "Goldstein, S.", "O'Gara, A.", "Chen, M.", "Hendrycks, D."]
+    year: 2023
+    forward_citations: true
+    backward_citations: true
+
+  - doi: "10.48550/arXiv.2110.03605"
+    title: "Truthful AI: Developing and governing AI that does not lie"
+    authors: ["Evans, O.", "Cotton-Barratt, O.", "Finnveden, L.", "et al."]
+    year: 2021
+    forward_citations: true
+    backward_citations: true
+
+  - title: "Human-level play in the game of Diplomacy by combining language models with strategic reasoning"
+    authors: ["Bakhtin, A.", "et al."]
+    year: 2022
+    venue: "Science"
+    forward_citations: true
+    backward_citations: false
+
+  - title: "Language Models Don't Always Say What They Think"
+    authors: ["Turpin, M.", "et al."]
+    year: 2023
+    forward_citations: true
+    backward_citations: true
+
+key_authors:
+  - name: "Park, Peter S."
+    affiliation: "MIT"
+    track_all_papers: true
+
+  - name: "Hendrycks, Dan"
+    affiliation: "Center for AI Safety"
+    track_all_papers: true
+
+  - name: "Evans, Owain"
+    affiliation: "Oxford"
+    track_all_papers: true
+
+  - name: "Brown, Noam"
+    affiliation: "Meta AI"
+    track_papers_after: 2019
+
+  - name: "Perez, Ethan"
+    affiliation: "Anthropic"
+    track_papers_after: 2021
+
+execution_order:
+  1: core_deception.A1_core_terms
+  2: core_deception.A2_broader_terms
+  3: specific_systems.B_named_systems
+  4: llm_behavior.D1_llm_phenomena
+  5: safety_alignment.E1_ai_safety
+  6: game_playing.C1_game_ai
+  7: game_playing.C2_specific_games
+  8: llm_behavior.D2_adversarial
+  9: safety_alignment.E2_technical_safety
+  10: risks_harms.F_risk_categories
+  11: policy_regulation.G_governance
+  12: detection_mitigation.H_detection_methods
+
+deduplication:
+  method: "doi_and_title_similarity"
+  title_similarity_threshold: 0.85
+  prefer_source: "journal > conference > preprint"
