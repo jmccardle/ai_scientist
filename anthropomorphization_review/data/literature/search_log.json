@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2025-11-14T04:44:28.169509",
+    "database": "OpenAlex",
+    "query": "primary",
+    "result_count": 284
+  },
+  {
+    "timestamp": "2025-11-14T04:44:39.278176",
+    "database": "OpenAlex",
+    "query": "interaction",
+    "result_count": 621
+  },
+  {
+    "timestamp": "2025-11-14T04:44:46.549706",
+    "database": "OpenAlex",
+    "query": "ethics",
+    "result_count": 400
+  },
+  {
+    "timestamp": "2025-11-14T04:44:50.071262",
+    "database": "OpenAlex",
+    "query": "regulation",
+    "result_count": 2
+  },
+  {
+    "timestamp": "2025-11-14T04:44:52.283797",
+    "database": "arXiv",
+    "query": "primary",
+    "result_count": 193
+  },
+  {
+    "timestamp": "2025-11-14T04:44:54.603044",
+    "database": "arXiv",
+    "query": "interaction",
+    "result_count": 199
+  },
+  {
+    "timestamp": "2025-11-14T04:44:56.922413",
+    "database": "arXiv",
+    "query": "ethics",
+    "result_count": 199
+  },
+  {
+    "timestamp": "2025-11-14T04:44:59.121606",
+    "database": "arXiv",
+    "query": "regulation",
+    "result_count": 200
+  }
+]

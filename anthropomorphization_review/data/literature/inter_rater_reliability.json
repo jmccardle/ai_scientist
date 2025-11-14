@@ -1,0 +1,10 @@
+{
+  "screening_date": "2025-11-14T04:46:57.492119",
+  "total_papers": 1902,
+  "reviewer1_included": 442,
+  "reviewer2_included": 869,
+  "cohens_kappa": 0.5292750471505094,
+  "conflicts": 427,
+  "final_included": 448,
+  "final_excluded": 1454
+}
